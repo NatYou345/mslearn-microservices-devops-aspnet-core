@@ -1,0 +1,2 @@
+obj/Debug/net6.0/Proto/Basket.cs \
+obj/Debug/net6.0/Proto/BasketGrpc.cs: Proto/basket.proto

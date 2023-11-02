@@ -1,0 +1,2 @@
+obj/Debug/net6.0/Basket.cs \
+obj/Debug/net6.0/BasketGrpc.cs: ../../../Services/Basket/Basket.API/Proto/basket.proto

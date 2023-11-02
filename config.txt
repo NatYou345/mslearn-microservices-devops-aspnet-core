@@ -1,0 +1,3 @@
+[37m[1mAKS and ACR Configuration values(B[m[37m
+
+IP_ADDRESS: [37m[1m20.242.220.157(B[m[37m
