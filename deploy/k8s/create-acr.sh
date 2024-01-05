@@ -97,10 +97,24 @@ then
     echo
 fi
 
-eshopRegistry=`az acr show -n $eshopAcrName --query "loginServer" -otsv`
 
-if [ -z "$eshopRegistry" ]
-then
+echo "Giving AKS access to ACR instance \"$eshopAcrName\"..."
+retryCount=0
+eshopRegistry=""
+
+while [ -z "$eshopRegistry" ] && [ $retryCount -lt 10 ]; do
+    exec &> /dev/null
+    eshopRegistry=$(az acr show -n $eshopAcrName --query "loginServer" -otsv)
+    exec >& /dev/tty
+
+    if [ -z "$eshopRegistry" ]; then
+        echo "ACR instance wasn't ready. I'll keep trying for up to 5 minutes..."
+        sleep 30
+        retryCount=$((retryCount+1))
+    fi
+done
+
+if [ -z "$eshopRegistry" ]; then
     echo "${newline}${errorStyle}ERROR! ACR server $eshopAcrName doesn't exist!${defaultTextStyle}${newline}"
     exit 1
 fi
@@ -115,10 +129,10 @@ aksIdentityObjectId=$(az aks show -g $eshopRg -n $ESHOP_AKSNAME --query identity
 if [ ! -z "$aksIdentityObjectId" ]
 then
     acrResourceId=$(az acr show -n $eshopAcrName -g $eshopRg --query id -o tsv)
-
     az role assignment create \
         --role AcrPull \
         --assignee-object-id $aksIdentityObjectId \
+        --assignee-principal-type ServicePrincipal \
         --scope $acrResourceId \
         --output none
 fi
