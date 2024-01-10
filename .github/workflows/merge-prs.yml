@@ -15,5 +15,5 @@ jobs:
   # uses: KeisukeYamashita/auto-pull-request-merge@68fa2d9d8e449e217aa37bda2e51e3e86ace3bfb
         uses: KeisukeYamashita/auto-pull-request-merge@v1.0.6
         with:
-          timeout: 999999
+          timeoutSeconds: 999999
           
