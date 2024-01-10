@@ -1523,9 +1523,9 @@
     node-gyp "^8.2.0"
     read-package-json-fast "^2.0.1"
 
-"@popperjs/core@2.11.4":
-  version "2.11.4"
-  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.4.tgz"
+"@popperjs/core@2.11.8":
+  version "2.11.8"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
 
 "@schematics/angular@13.3.1":
   version "13.3.1"
