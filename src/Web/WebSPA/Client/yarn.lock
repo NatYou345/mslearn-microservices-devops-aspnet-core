@@ -2829,9 +2829,9 @@ core-js-compat@^3.31.0, core-js-compat@^3.33.1:
   dependencies:
     browserslist "^4.22.2"
 
-core-js@^3.0.0:
-  version "3.20.3"
-  resolved "https://registry.npmjs.org/core-js/-/core-js-3.20.3.tgz"
+core-js@^3.35.0:
+  version "3.35.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.35.0.tgz#58e651688484f83c34196ca13f099574ee53d6b4"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
