@@ -7987,8 +7987,8 @@ yocto-queue@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.0.0.tgz#7f816433fb2cbc511ec8bf7d263c3b58a1a3c251"
 
-zone.js@~0.11.5:
-  version "0.11.5"
-  resolved "https://registry.npmjs.org/zone.js/-/zone.js-0.11.5.tgz"
+zone.js@~0.11.8:
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.11.8.tgz#40dea9adc1ad007b5effb2bfed17f350f1f46a21"
   dependencies:
     tslib "^2.3.0"
