@@ -48,11 +48,11 @@
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.20.0, )"
+              "version": "[3.25.2, )"
             },
             "Grpc.AspNetCore.Server.ClientFactory": {
               "target": "Package",
-              "version": "[2.44.0, )"
+              "version": "[2.60.0, )"
             },
             "Grpc.Core": {
               "target": "Package",
@@ -60,7 +60,7 @@
             },
             "Grpc.Net.Client": {
               "target": "Package",
-              "version": "[2.44.0, )"
+              "version": "[2.60.0, )"
             },
             "Grpc.Tools": {
               "suppressParent": "All",
@@ -85,7 +85,7 @@
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.15.0, )"
+              "version": "[1.19.6, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -93,7 +93,7 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
@@ -105,7 +105,7 @@
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

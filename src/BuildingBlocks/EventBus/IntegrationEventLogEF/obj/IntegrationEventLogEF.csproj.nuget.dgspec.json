@@ -103,7 +103,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -113,11 +113,11 @@
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.14, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

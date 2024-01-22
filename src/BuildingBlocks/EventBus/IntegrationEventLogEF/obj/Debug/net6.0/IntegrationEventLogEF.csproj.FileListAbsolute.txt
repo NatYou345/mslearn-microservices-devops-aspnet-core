@@ -1,0 +1,17 @@
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net6.0/IntegrationEventLogEF.deps.json
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net6.0/IntegrationEventLogEF.runtimeconfig.json
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net6.0/IntegrationEventLogEF.dll
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net6.0/IntegrationEventLogEF.pdb
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net6.0/EventBus.dll
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/bin/Debug/net6.0/EventBus.pdb
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.csproj.AssemblyReference.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.AssemblyInfoInputs.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.AssemblyInfo.cs
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.csproj.CoreCompileInputs.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.csproj.CopyComplete
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.dll
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/refint/IntegrationEventLogEF.dll
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.pdb
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/IntegrationEventLogEF.genruntimeconfig.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/Debug/net6.0/ref/IntegrationEventLogEF.dll

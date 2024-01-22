@@ -1,0 +1,24 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebStatus
+build_property.RootNamespace = WebStatus
+build_property.ProjectDir = /workspaces/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /workspaces/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus
+build_property._RazorSourceGeneratorDebug = 
+
+[/workspaces/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/Views/Home/Config.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db25maWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

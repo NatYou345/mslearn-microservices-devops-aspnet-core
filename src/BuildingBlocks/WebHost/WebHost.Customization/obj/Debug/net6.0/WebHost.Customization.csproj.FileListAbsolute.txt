@@ -1,0 +1,14 @@
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/bin/Debug/net6.0/WebHost.Customization.deps.json
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/bin/Debug/net6.0/WebHost.Customization.runtimeconfig.json
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/bin/Debug/net6.0/WebHost.Customization.dll
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/bin/Debug/net6.0/WebHost.Customization.pdb
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.csproj.AssemblyReference.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.AssemblyInfoInputs.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.AssemblyInfo.cs
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.csproj.CoreCompileInputs.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.dll
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/refint/WebHost.Customization.dll
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.pdb
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/WebHost.Customization.genruntimeconfig.cache
+/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/WebHost/WebHost.Customization/obj/Debug/net6.0/ref/WebHost.Customization.dll

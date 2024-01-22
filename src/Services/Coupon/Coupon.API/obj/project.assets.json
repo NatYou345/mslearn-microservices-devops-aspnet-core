@@ -1242,7 +1242,7 @@
           }
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.0": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -1665,13 +1665,13 @@
           }
         }
       },
-      "Serilog/2.10.0": {
+      "Serilog/3.1.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Serilog.dll": {}
+          "lib/net6.0/Serilog.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Serilog.dll": {}
+          "lib/net6.0/Serilog.dll": {}
         }
       },
       "Serilog.AspNetCore/5.0.0": {
@@ -1752,16 +1752,16 @@
           "lib/netstandard2.0/Serilog.Settings.Configuration.dll": {}
         }
       },
-      "Serilog.Sinks.Console/4.0.1": {
+      "Serilog.Sinks.Console/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Serilog": "2.10.0"
+          "Serilog": "3.1.1"
         },
         "compile": {
-          "lib/net5.0/Serilog.Sinks.Console.dll": {}
+          "lib/net6.0/Serilog.Sinks.Console.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Serilog.Sinks.Console.dll": {}
+          "lib/net6.0/Serilog.Sinks.Console.dll": {}
         }
       },
       "Serilog.Sinks.Debug/2.0.0": {
@@ -4842,14 +4842,15 @@
         "microsoft.rest.clientruntime.azure.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.0": {
-      "sha512": "63WC4TTNYIGp0pRf9yGrXVqVyPWTtY/r4tFBCOx5d14QVdQPIUqGzE9TWDO1/lOwg+aN0/S3DZTUw9kBSHT/Mg==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.6": {
+      "sha512": "7GOQdMzQcH7o/bPFL/I2kQEgMnq2pYZ+exhGb9nNqs624K9w2jB2zieh4sOH9+a01i/G9iTWfeUI3IGMF7SKNg==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.15.0",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.19.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "CHANGELOG.md",
         "EULA.md",
         "ThirdPartyNotices.txt",
         "build/Container.props",
@@ -4873,7 +4874,7 @@
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
         "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.15.0.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -5403,21 +5404,23 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "Serilog/2.10.0": {
-      "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+    "Serilog/3.1.1": {
+      "sha512": "P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
       "type": "package",
-      "path": "serilog/2.10.0",
+      "path": "serilog/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "icon.png",
-        "lib/net45/Serilog.dll",
-        "lib/net46/Serilog.dll",
-        "lib/netstandard1.0/Serilog.dll",
-        "lib/netstandard1.3/Serilog.dll",
+        "lib/net462/Serilog.dll",
+        "lib/net471/Serilog.dll",
+        "lib/net5.0/Serilog.dll",
+        "lib/net6.0/Serilog.dll",
+        "lib/net7.0/Serilog.dll",
         "lib/netstandard2.0/Serilog.dll",
         "lib/netstandard2.1/Serilog.dll",
-        "serilog.2.10.0.nupkg.sha512",
+        "serilog.3.1.1.nupkg.sha512",
         "serilog.nuspec"
       ]
     },
@@ -5493,19 +5496,23 @@
         "serilog.settings.configuration.nuspec"
       ]
     },
-    "Serilog.Sinks.Console/4.0.1": {
-      "sha512": "apLOvSJQLlIbKlbx+Y2UDHSP05kJsV7mou+fvJoRGs/iR+jC22r8cuFVMjjfVxz/AD4B2UCltFhE1naRLXwKNw==",
+    "Serilog.Sinks.Console/5.0.1": {
+      "sha512": "6Jt8jl9y2ey8VV7nVEUAyjjyxjAQuvd5+qj4XYAT9CwcsvR70HHULGBeD+K2WCALFXf7CFsNQT4lON6qXcu2AA==",
       "type": "package",
-      "path": "serilog.sinks.console/4.0.1",
+      "path": "serilog.sinks.console/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "icon.png",
-        "lib/net45/Serilog.Sinks.Console.dll",
+        "lib/net462/Serilog.Sinks.Console.dll",
+        "lib/net471/Serilog.Sinks.Console.dll",
         "lib/net5.0/Serilog.Sinks.Console.dll",
-        "lib/netstandard1.3/Serilog.Sinks.Console.dll",
+        "lib/net6.0/Serilog.Sinks.Console.dll",
+        "lib/net7.0/Serilog.Sinks.Console.dll",
         "lib/netstandard2.0/Serilog.Sinks.Console.dll",
-        "serilog.sinks.console.4.0.1.nupkg.sha512",
+        "lib/netstandard2.1/Serilog.Sinks.Console.dll",
+        "serilog.sinks.console.5.0.1.nupkg.sha512",
         "serilog.sinks.console.nuspec"
       ]
     },
@@ -8521,13 +8528,13 @@
       "Microsoft.ApplicationInsights.Kubernetes >= 2.0.2",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.3",
       "Microsoft.Extensions.Configuration.AzureKeyVault >= 3.1.23",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.15.0",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.6",
       "MongoDB.Driver >= 2.13.3",
       "MongoDB.Driver.Core >= 2.13.3",
       "Polly >= 7.2.3",
       "Serilog.AspNetCore >= 5.0.0",
       "Serilog.Settings.Configuration >= 3.3.0",
-      "Serilog.Sinks.Console >= 4.0.1",
+      "Serilog.Sinks.Console >= 5.0.1",
       "Serilog.Sinks.Http >= 7.2.0",
       "Serilog.Sinks.Seq >= 5.1.1",
       "Swashbuckle.AspNetCore >= 6.3.0"
@@ -8622,7 +8629,7 @@
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
-            "version": "[1.15.0, )"
+            "version": "[1.19.6, )"
           },
           "MongoDB.Driver": {
             "target": "Package",
@@ -8646,7 +8653,7 @@
           },
           "Serilog.Sinks.Console": {
             "target": "Package",
-            "version": "[4.0.1, )"
+            "version": "[5.0.1, )"
           },
           "Serilog.Sinks.Http": {
             "target": "Package",

@@ -40,7 +40,7 @@
           "dependencies": {
             "AspNetCore.HealthChecks.UI": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[7.0.2, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
@@ -80,7 +80,7 @@
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.15.0, )"
+              "version": "[1.19.6, )"
             },
             "Microsoft.Web.LibraryManager.Build": {
               "target": "Package",
@@ -92,7 +92,7 @@
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.3.0, )"
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
@@ -100,7 +100,7 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",

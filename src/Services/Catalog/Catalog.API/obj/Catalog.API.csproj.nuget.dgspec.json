@@ -261,7 +261,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -271,11 +271,11 @@
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[7.0.14, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -355,7 +355,7 @@
             },
             "AspNetCore.HealthChecks.AzureStorage": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[7.0.0, )"
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
@@ -375,7 +375,7 @@
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.20.0, )"
+              "version": "[3.25.2, )"
             },
             "Grpc.AspNetCore.Server": {
               "target": "Package",
@@ -416,7 +416,7 @@
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.15.0, )"
+              "version": "[1.19.6, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -424,7 +424,7 @@
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.3.0, )"
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
@@ -432,7 +432,7 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
@@ -448,7 +448,7 @@
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
