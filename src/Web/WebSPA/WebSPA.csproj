@@ -39,7 +39,7 @@
     <PackageReference Include="Serilog.Sinks.Seq" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="8.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="8.0.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
