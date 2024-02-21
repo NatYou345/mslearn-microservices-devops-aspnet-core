@@ -1,92 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/mslearn-microservices-devops-aspnet-core/tests/Services/Coupon/Coupon.API.Tests/Coupon.API.Tests.csproj": {}
+    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\tests\\Services\\Coupon\\Coupon.API.Tests\\Coupon.API.Tests.csproj": {}
   },
   "projects": {
-    "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
-        "projectName": "EventBus",
-        "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
-        "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/vscode/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
         "projectName": "EventBusRabbitMQ",
-        "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
-        "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/vscode/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
-                "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               }
             }
           }
@@ -95,15 +43,20 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -111,19 +64,19 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[7.2.3, )"
+              "version": "[8.3.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[6.2.4, )"
+              "version": "[6.8.1, )"
             }
           },
           "imports": [
@@ -142,34 +95,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj": {
+    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
         "projectName": "EventBusServiceBus",
-        "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj",
-        "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusServiceBus/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/vscode/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
-                "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               }
             }
           }
@@ -178,15 +138,20 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
@@ -198,7 +163,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -217,40 +182,118 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/Coupon.API.csproj": {
+    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/Coupon.API.csproj",
-        "projectName": "Coupon.API",
-        "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/Coupon.API.csproj",
-        "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+        "projectName": "EventBus",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/vscode/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Coupon\\Coupon.API\\Coupon.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Coupon\\Coupon.API\\Coupon.API.csproj",
+        "projectName": "Coupon.API",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Coupon\\Coupon.API\\Coupon.API.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Coupon\\Coupon.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
-                "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
               },
-              "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj": {
-                "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj"
+              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj"
               },
-              "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj": {
-                "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusServiceBus/EventBusServiceBus.csproj"
+              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               }
             }
           }
@@ -259,91 +302,92 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AspNetCore.HealthChecks.AzureServiceBus": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[8.0.0, )"
             },
             "AspNetCore.HealthChecks.MongoDb": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[8.0.0, )"
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[8.0.0, )"
             },
             "AspNetCore.HealthChecks.SqlServer": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[8.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[8.0.0, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[2.20.0, )"
+              "version": "[2.22.0, )"
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[2.0.2, )"
+              "version": "[6.1.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.Extensions.Configuration.AzureKeyVault": {
               "target": "Package",
-              "version": "[3.1.23, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.15.0, )"
+              "version": "[3.1.24, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.13.3, )"
+              "version": "[2.23.2, )"
             },
             "MongoDB.Driver.Core": {
               "target": "Package",
-              "version": "[2.13.3, )"
+              "version": "[2.23.2, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[7.2.3, )"
+              "version": "[8.3.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[8.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[8.0.0, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[5.1.1, )"
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -365,34 +409,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/mslearn-microservices-devops-aspnet-core/tests/Services/Coupon/Coupon.API.Tests/Coupon.API.Tests.csproj": {
+    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\tests\\Services\\Coupon\\Coupon.API.Tests\\Coupon.API.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/mslearn-microservices-devops-aspnet-core/tests/Services/Coupon/Coupon.API.Tests/Coupon.API.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\tests\\Services\\Coupon\\Coupon.API.Tests\\Coupon.API.Tests.csproj",
         "projectName": "Coupon.API.Tests",
-        "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/tests/Services/Coupon/Coupon.API.Tests/Coupon.API.Tests.csproj",
-        "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/mslearn-microservices-devops-aspnet-core/tests/Services/Coupon/Coupon.API.Tests/obj/",
+        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\tests\\Services\\Coupon\\Coupon.API.Tests\\Coupon.API.Tests.csproj",
+        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\tests\\Services\\Coupon\\Coupon.API.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/vscode/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/Coupon.API.csproj": {
-                "projectPath": "/workspaces/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/Coupon.API.csproj"
+              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Coupon\\Coupon.API\\Coupon.API.csproj": {
+                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Coupon\\Coupon.API\\Coupon.API.csproj"
               }
             }
           }
@@ -401,31 +452,36 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.1.0, )"
+              "version": "[17.9.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[6.0.1, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.7.0, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.5.7, )"
             }
           },
           "imports": [
@@ -444,7 +500,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
