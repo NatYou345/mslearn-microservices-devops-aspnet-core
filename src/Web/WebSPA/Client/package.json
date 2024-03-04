@@ -58,7 +58,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.2.0",
     "@angular/cli": "17.2.0",
-    "@angular/compiler-cli": "17.2.1",
+    "@angular/compiler-cli": "17.2.3",
     "@angular/language-service": "17.2.1",
     "@types/core-js": "2.5.8",
     "@types/hammerjs": "2.0.45",
