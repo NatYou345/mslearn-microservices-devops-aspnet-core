@@ -1,0 +1,13 @@
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\bin\Debug\net8.0\EventBus.deps.json
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\bin\Debug\net8.0\EventBus.dll
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\bin\Debug\net8.0\EventBus.pdb
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.csproj.AssemblyReference.cache
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.AssemblyInfoInputs.cache
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.AssemblyInfo.cs
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.csproj.CoreCompileInputs.cache
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.sourcelink.json
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.dll
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\refint\EventBus.dll
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\EventBus.pdb
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\BuildingBlocks\EventBus\EventBus\obj\Debug\net8.0\ref\EventBus.dll

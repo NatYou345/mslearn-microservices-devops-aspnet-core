@@ -1,0 +1,8 @@
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.csproj.AssemblyReference.cache
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.AssemblyInfoInputs.cache
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.AssemblyInfo.cs
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.csproj.CoreCompileInputs.cache
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\ALLEGRANathan\mslearn-microservices-devops-aspnet-core\src\Services\Coupon\Coupon.API\obj\Debug\net8.0\Coupon.API.sourcelink.json
