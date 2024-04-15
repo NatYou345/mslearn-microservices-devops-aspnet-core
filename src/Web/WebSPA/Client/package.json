@@ -63,7 +63,7 @@
     "@types/core-js": "2.5.8",
     "@types/hammerjs": "2.0.45",
     "@types/jasmine": "^5.1.4",
-    "@types/node": "^20.11.29",
+    "@types/node": "^20.12.7",
     "@types/protractor": "4.0.0",
     "@types/selenium-webdriver": "4.1.22",
     "codelyzer": "^6.0.2",
