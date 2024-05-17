@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a9ZAd0+ht06n2cfXDjWENCWz6+28KTu8T1H2s2iIAYNUKNxndvRqUQ64vA463C0U0BRanv5oGQqBH8cwWFOA4w==",
+  "dgSpecHash": "C/ynliEnruKmnAey/DvxErQbMxGiphOM7txl9d8wgCeD64cMHjEqg9B7lUswa1cpk/cw2BXqEQhmqFmWT0Mj0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
   "expectedPackageFiles": [

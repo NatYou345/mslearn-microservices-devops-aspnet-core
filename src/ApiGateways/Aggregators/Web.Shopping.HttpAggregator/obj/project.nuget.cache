@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DnmhNWwVpb3oZPFP4/Gamotl/GMTQPhjnobDoxx+lApLSGHI3ljzGa22RixzzgZHVZvS2cNxd3NTz7MN581zrA==",
+  "dgSpecHash": "Y3yT6DodIiHQL5pUuT7aPI5qkRCp1G3F/YCUdgDOiVDcxs4ostLuNtjV6O4VmOvZs/VndA6VQ82iKfO3g/vKLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
   "expectedPackageFiles": [

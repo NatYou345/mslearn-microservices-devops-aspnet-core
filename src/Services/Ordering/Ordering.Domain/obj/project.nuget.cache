@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qYEco7UpQwZZI57YBLQGzw+8B7HIOwRCNfDaWolffzGc3lOtUcItPs1aJHIroO4keuazgDpBHrxRWpEne+MxDg==",
+  "dgSpecHash": "MkNhSbG6Fjt5nzpPgONTNO2Xi7aprHJ2qqXbovrkRnOc17/8E5SYlU5FN7y/opoBiFEsADjVIJsrpjKsvArLhw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
   "expectedPackageFiles": [

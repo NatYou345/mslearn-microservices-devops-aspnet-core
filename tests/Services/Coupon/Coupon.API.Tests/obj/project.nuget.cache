@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5id+W+J7e1RHnT4ATdZNvrTuSw8gvvzvFBEWNTqQOwZ8CgSSly7TAHw5aupym+Zl6Nzt/cQBzfL98iG6XmcYPA==",
+  "dgSpecHash": "crpEoXMWfy8EP4+azVRSdvdutU68LUSONLIFRv6GzlNG8w511OjvufhWWhgS5JfyNm4soqrXfNsqMEXAuCkwdA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\tests\\Services\\Coupon\\Coupon.API.Tests\\Coupon.API.Tests.csproj",
   "expectedPackageFiles": [

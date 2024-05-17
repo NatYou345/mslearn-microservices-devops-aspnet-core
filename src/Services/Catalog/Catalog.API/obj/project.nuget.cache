@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3mQngIMYeH0xM/t4UB1fPngq+mwIXLN9UTTlIMjKhJ0mCGrvA76lBUr8BWS/yJlvL1yACqv4mF/nLMUqNpFKA==",
+  "dgSpecHash": "bdhcqZHda8nItGIjtmyG8nAkXLPTTNMoB24sF0qGS+hEyNnRL4jn3zJTe/iZnl2wIZNgY5vfWfRRJ+SnfXdl3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [

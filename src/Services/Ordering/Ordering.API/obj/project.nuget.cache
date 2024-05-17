@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VG0/ukOiDCEOyRVR6IGLu+M0Ud1zwObxYnQO780uZ928pLMlWjkBTJWwLBrcqAxWA2Kr0BstVhx4XCqCqpCNXw==",
+  "dgSpecHash": "l825OH18zB6lT8ReyqUI4rm/rxxo8RgLo142eU8klkvTbrR1hAD0in5vh6o1/ZMvry6FonrzQd/htquuPoLLQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
   "expectedPackageFiles": [

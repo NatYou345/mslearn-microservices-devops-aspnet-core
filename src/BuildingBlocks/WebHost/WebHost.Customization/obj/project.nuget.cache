@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KUQFRXH04hrAkqMr2VqAfmQQ7G2vQYwSF4F44n3PfNq0DGV0rutk6pBcRgQ6OOwWCGOmOdV09DrkEwd6Olu+yA==",
+  "dgSpecHash": "qbPomk1anztklDSB4Zm7WYeQMq9tp9FJey2N67+G8klgRqQtBO/hlN2s9lxkUG5gIPCTqpgk4/S8NXcS2ESo3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\WebHost\\WebHost.Customization\\WebHost.Customization.csproj",
   "expectedPackageFiles": [

@@ -786,14 +786,10 @@
       "Serilog/3.1.1": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Serilog.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/Serilog.dll": {}
         },
         "runtime": {
-          "lib/net7.0/Serilog.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/Serilog.dll": {}
         }
       },
       "Serilog.AspNetCore/8.0.1": {
@@ -901,14 +897,10 @@
           "Serilog": "3.1.1"
         },
         "compile": {
-          "lib/net7.0/Serilog.Sinks.Console.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/Serilog.Sinks.Console.dll": {}
         },
         "runtime": {
-          "lib/net7.0/Serilog.Sinks.Console.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/Serilog.Sinks.Console.dll": {}
         }
       },
       "Serilog.Sinks.Debug/2.0.0": {
@@ -917,14 +909,10 @@
           "Serilog": "2.10.0"
         },
         "compile": {
-          "lib/netstandard2.1/Serilog.Sinks.Debug.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Serilog.Sinks.Debug.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.Debug.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Serilog.Sinks.Debug.dll": {}
         }
       },
       "Serilog.Sinks.File/5.0.0": {
@@ -934,12 +922,12 @@
         },
         "compile": {
           "lib/net5.0/Serilog.Sinks.File.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net5.0/Serilog.Sinks.File.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -1014,12 +1002,12 @@
         },
         "compile": {
           "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "frameworkReferences": [
@@ -1033,12 +1021,12 @@
         },
         "compile": {
           "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -3152,11 +3140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
+      "projectUniqueName": "c:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
       "projectName": "Web.Shopping.HttpAggregator",
-      "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
+      "projectPath": "c:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
       "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\obj\\",
+      "outputPath": "c:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3269,7 +3257,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

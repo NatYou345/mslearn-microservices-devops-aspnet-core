@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lWlh3rwQImNQ0YEuF3pjnGKL/JFvX9iaeCMig3em8Pi4ffuTNO9dLzvq8/Dhb4ZHV/aCIlsgRzx/l6bdV4Xe1Q==",
+  "dgSpecHash": "H5OPBbXMcsWV8RSn5nR/w0voHLYKbTvPZUlN5fRl/iQ0kY9BNntDWndX3Fam/JgFpDPgClbTp6JimyNd4mtT0g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.SignalrHub\\Ordering.SignalrHub.csproj",
   "expectedPackageFiles": [

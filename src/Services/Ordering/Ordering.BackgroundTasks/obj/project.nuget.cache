@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/4YQy/Un6uucnWV8yFtrHnJOfSK4Z5jnRgf2pdflHRwApQNmoIYpXTyGlUQI2RK3Gfr9WD/gpQjrfNGd+zt+Hg==",
+  "dgSpecHash": "Ic5D8ftheBTqaBzjSw2wV3MejNhEsrYNx9piF7xzpRJDacGVHZFuIlj8I3P99kCd28E5Y+XWxzMSgU12fc3nXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.BackgroundTasks\\Ordering.BackgroundTasks.csproj",
   "expectedPackageFiles": [

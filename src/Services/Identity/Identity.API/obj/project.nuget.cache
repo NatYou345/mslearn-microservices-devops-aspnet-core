@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4QQYmPUJSghN7nfK28ywVci2nHwayknMfblQjN3tvAWcuQZALJ2LjtrVDqTN4Wqo6BDFqWSauWAnvPnqUe0LPw==",
+  "dgSpecHash": "MZ8rJFuq83gTrsm0cz2NGGS7q9aDaev2X6FPRQIYKE7beasdbWKQOZjnisxhuOohuBYvS5YO6TYLDpxPCs72CA==",
   "success": false,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Identity\\Identity.API\\Identity.API.csproj",
   "expectedPackageFiles": [

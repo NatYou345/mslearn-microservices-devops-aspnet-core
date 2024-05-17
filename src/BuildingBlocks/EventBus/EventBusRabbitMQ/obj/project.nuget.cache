@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B2eXNHRL29ycUX5lHzUNe5eE9oHeelPj44EX966zXvAXFLE2jFev4vDZ9GDHpJwlQX48I8v/V+1xK5qKtEhBrA==",
+  "dgSpecHash": "Ym1gctTHkfbef9sAaZPMuxErzBVYRzKOCZX98qWC0/o1P76TtxyftA05EQg8Bv1Q2/55E1QvMqasX0Ejd6YnXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
   "expectedPackageFiles": [

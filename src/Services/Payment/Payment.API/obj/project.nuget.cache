@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2J8JfxviD+J4d8SqHyFfFZrveuJDmpIDUYGUEVaAgC/hK/wUKT8a7YUaalnptvtJKOOZ+JhTol+GalPKqwo69Q==",
+  "dgSpecHash": "/EUVi80qcZgQfAcawe6LJCofpS+Gf4lA3b7vwKkc4bud+XIPqEo10W1oQKVEPITM2uVj5JxYb9caZPyEllRNGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj",
   "expectedPackageFiles": [

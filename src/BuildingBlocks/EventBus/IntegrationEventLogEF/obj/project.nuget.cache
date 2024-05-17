@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D110wu9pbzL/+RHd+jUtVLPJuukiWIZlwmYZTJIcX/bZbJ4dptyA0KmdigxTLtu+Whgj/tbFQzc+buFZV6ClYg==",
+  "dgSpecHash": "c7YdjriUlX3sHBlHDrkoykWVohuUhAmjKv7ilTb0W/Vq33Wcbd7oIkGqSaaPgxbvcxE47sskZBiFzsZoAqA17w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
   "expectedPackageFiles": [
