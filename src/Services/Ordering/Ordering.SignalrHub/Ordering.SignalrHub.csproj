@@ -29,7 +29,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" Version="8.0.5" />
-    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.6" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\BuildingBlocks\EventBus\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
