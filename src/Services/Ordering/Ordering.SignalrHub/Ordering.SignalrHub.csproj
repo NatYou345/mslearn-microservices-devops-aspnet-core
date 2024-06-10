@@ -18,7 +18,7 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="6.1.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     <PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0" />
