@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "AspNetCore.HealthChecks.UI/8.0.0": {
+      "AspNetCore.HealthChecks.UI/8.0.1": {
         "type": "package",
         "dependencies": {
-          "AspNetCore.HealthChecks.UI.Data": "8.0.0",
+          "AspNetCore.HealthChecks.UI.Data": "8.0.1",
           "KubernetesClient": "12.1.1",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.Extensions.Http": "8.0.0"
@@ -24,10 +24,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "AspNetCore.HealthChecks.UI.Client/8.0.0": {
+      "AspNetCore.HealthChecks.UI.Client/8.0.1": {
         "type": "package",
         "dependencies": {
-          "AspNetCore.HealthChecks.UI.Core": "8.0.0",
+          "AspNetCore.HealthChecks.UI.Core": "8.0.1",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.0"
         },
         "compile": {
@@ -44,7 +44,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "AspNetCore.HealthChecks.UI.Core/8.0.0": {
+      "AspNetCore.HealthChecks.UI.Core/8.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -61,10 +61,10 @@
           }
         }
       },
-      "AspNetCore.HealthChecks.UI.Data/8.0.0": {
+      "AspNetCore.HealthChecks.UI.Data/8.0.1": {
         "type": "package",
         "dependencies": {
-          "AspNetCore.HealthChecks.UI.Core": "8.0.0",
+          "AspNetCore.HealthChecks.UI.Core": "8.0.1",
           "Microsoft.EntityFrameworkCore": "8.0.0"
         },
         "compile": {
@@ -78,10 +78,10 @@
           }
         }
       },
-      "AspNetCore.HealthChecks.UI.InMemory.Storage/8.0.0": {
+      "AspNetCore.HealthChecks.UI.InMemory.Storage/8.0.1": {
         "type": "package",
         "dependencies": {
-          "AspNetCore.HealthChecks.UI.Data": "8.0.0",
+          "AspNetCore.HealthChecks.UI.Data": "8.0.1",
           "Microsoft.EntityFrameworkCore.InMemory": "8.0.0"
         },
         "compile": {
@@ -95,7 +95,7 @@
           }
         }
       },
-      "AspNetCore.HealthChecks.Uris/8.0.0": {
+      "AspNetCore.HealthChecks.Uris/8.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.0",
@@ -266,10 +266,10 @@
           }
         }
       },
-      "Microsoft.ApplicationInsights.Kubernetes/6.1.2": {
+      "Microsoft.ApplicationInsights.Kubernetes/7.0.0": {
         "type": "package",
         "dependencies": {
-          "KubernetesClient": "10.0.16",
+          "KubernetesClient": "12.1.1",
           "Microsoft.ApplicationInsights": "2.21.0",
           "Microsoft.Extensions.Configuration": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -371,14 +371,10 @@
           "System.Reflection.Metadata": "1.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.dll": {}
         }
       },
       "Microsoft.AspNetCore.Hosting.Abstractions/2.1.1": {
@@ -426,14 +422,10 @@
           "Microsoft.Net.Http.Headers": "2.1.1"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
         }
       },
       "Microsoft.AspNetCore.Http.Abstractions/2.1.1": {
@@ -462,14 +454,10 @@
           "System.Buffers": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
         }
       },
       "Microsoft.AspNetCore.Http.Features/2.1.1": {
@@ -495,14 +483,10 @@
           "System.Text.Encodings.Web": "4.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
         }
       },
       "Microsoft.Azure.KeyVault/2.3.2": {
@@ -1527,7 +1511,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.AzureAppServices/8.0.3": {
+      "Microsoft.Extensions.Logging.AzureAppServices/8.0.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
@@ -2229,13 +2213,17 @@
           }
         }
       },
-      "Serilog/3.1.1": {
+      "Serilog/4.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Serilog.dll": {}
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net7.0/Serilog.dll": {}
+          "lib/net8.0/Serilog.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Serilog.AspNetCore/8.0.1": {
@@ -2266,16 +2254,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Serilog.Enrichers.Environment/2.3.0": {
+      "Serilog.Enrichers.Environment/3.0.1": {
         "type": "package",
         "dependencies": {
-          "Serilog": "2.3.0"
+          "Serilog": "4.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {}
+          "lib/net8.0/Serilog.Enrichers.Environment.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Serilog.Enrichers.Environment.dll": {}
+          "lib/net8.0/Serilog.Enrichers.Environment.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Serilog.Extensions.Hosting/8.0.0": {
@@ -2331,7 +2323,7 @@
           }
         }
       },
-      "Serilog.Settings.Configuration/8.0.0": {
+      "Serilog.Settings.Configuration/8.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "8.0.0",
@@ -2349,16 +2341,20 @@
           }
         }
       },
-      "Serilog.Sinks.Console/5.0.1": {
+      "Serilog.Sinks.Console/6.0.0": {
         "type": "package",
         "dependencies": {
-          "Serilog": "3.1.1"
+          "Serilog": "4.0.0"
         },
         "compile": {
-          "lib/net7.0/Serilog.Sinks.Console.dll": {}
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net7.0/Serilog.Sinks.Console.dll": {}
+          "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Serilog.Sinks.Debug/2.0.0": {
@@ -2389,10 +2385,10 @@
           }
         }
       },
-      "Serilog.Sinks.Http/8.0.0": {
+      "Serilog.Sinks.Http/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
@@ -2406,29 +2402,11 @@
           }
         }
       },
-      "Serilog.Sinks.PeriodicBatching/4.0.0": {
+      "Serilog.Sinks.Seq/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Serilog": "3.1.1",
-          "System.Threading.Channels": "8.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Serilog.Sinks.PeriodicBatching.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Serilog.Sinks.PeriodicBatching.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Serilog.Sinks.Seq/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Serilog": "3.1.1",
-          "Serilog.Sinks.File": "5.0.0",
-          "Serilog.Sinks.PeriodicBatching": "4.0.0"
+          "Serilog": "4.0.0",
+          "Serilog.Sinks.File": "5.0.0"
         },
         "compile": {
           "lib/net6.0/Serilog.Sinks.Seq.dll": {
@@ -2853,7 +2831,9 @@
           "System.Threading": "4.0.11"
         },
         "compile": {
-          "ref/netstandard1.3/System.Dynamic.Runtime.dll": {}
+          "ref/netstandard1.3/System.Dynamic.Runtime.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
           "lib/netstandard1.3/System.Dynamic.Runtime.dll": {}
@@ -3012,14 +2992,10 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
@@ -3777,14 +3753,10 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
@@ -3805,7 +3777,9 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Text.Encoding.dll": {}
+          "ref/netstandard1.3/System.Text.Encoding.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Text.Encoding.CodePages/6.0.0": {
@@ -3814,10 +3788,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Encoding.CodePages.dll": {}
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Text.Encoding.CodePages.dll": {}
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -3907,20 +3885,20 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
-      "System.Threading.Channels/8.0.0": {
+      "System.Threading.Channels/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/System.Threading.Channels.dll": {
+          "lib/net6.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/System.Threading.Channels.dll": {
+          "lib/net6.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net6.0/_._": {}
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -3999,10 +3977,14 @@
           "System.Drawing.Common": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Windows.Extensions.dll": {}
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Windows.Extensions.dll": {}
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
@@ -4125,14 +4107,14 @@
     }
   },
   "libraries": {
-    "AspNetCore.HealthChecks.UI/8.0.0": {
-      "sha512": "dJq5Xtw9ruXTKwo7Xzvw47HQsYaNK3EY9bmY+9oMydtvDEKi/J9KXuYyWSMQ6ZEK2Eso/dW8TwhCMRHWI7sJWg==",
+    "AspNetCore.HealthChecks.UI/8.0.1": {
+      "sha512": "79YPgMCyJG7Paevnt8ozgMXcoy8UioYrBNb8+Z4gPRZvDdAIfti5Yst5ktTcTlOX8fSSrPXIkBIMAU4I0GaMkw==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.ui/8.0.0",
+      "path": "aspnetcore.healthchecks.ui/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.ui.8.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.ui.8.0.1.nupkg.sha512",
         "aspnetcore.healthchecks.ui.nuspec",
         "icon.png",
         "lib/net8.0/HealthChecks.UI.dll",
@@ -4140,14 +4122,14 @@
         "lib/net8.0/HealthChecks.UI.xml"
       ]
     },
-    "AspNetCore.HealthChecks.UI.Client/8.0.0": {
-      "sha512": "QT3hgIYPpoI4LDKVGBI2zpi6COnJOjTiYXhgEQK67vZU+g0mg+Z7JuT4PRHj3hJ5M98yPnnPlkz2VVaGZYEvaQ==",
+    "AspNetCore.HealthChecks.UI.Client/8.0.1": {
+      "sha512": "nhC6KIoB/EtTbH3uGm2J6EHEUyTJuETUARFePbmrnA+zjbwsirzIVUQl46qIjvyPABhK0e7Rk+AxcRqC6zikqA==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.ui.client/8.0.0",
+      "path": "aspnetcore.healthchecks.ui.client/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.ui.client.8.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.ui.client.8.0.1.nupkg.sha512",
         "aspnetcore.healthchecks.ui.client.nuspec",
         "icon.png",
         "lib/net6.0/HealthChecks.UI.Client.dll",
@@ -4158,56 +4140,56 @@
         "lib/net8.0/HealthChecks.UI.Client.xml"
       ]
     },
-    "AspNetCore.HealthChecks.UI.Core/8.0.0": {
-      "sha512": "g+w6mVjdXLdklLH55VsctlX2gsI3uIcJ5kwpzLftUSTbrizq+KCYJ7hw2JZKyOBdg4TqOKfuim9fCE+XjuN/hQ==",
+    "AspNetCore.HealthChecks.UI.Core/8.0.1": {
+      "sha512": "Vn00MOJ1I0HSqyP7Bt9v0pr0AIgbrXMjL/KFwW+sRwLRogOtep8BWGimd8XYRCbCDLrAi7VSArU02f6pEIw69w==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.ui.core/8.0.0",
+      "path": "aspnetcore.healthchecks.ui.core/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.ui.core.8.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.ui.core.8.0.1.nupkg.sha512",
         "aspnetcore.healthchecks.ui.core.nuspec",
         "icon.png",
         "lib/net6.0/HealthChecks.UI.Core.dll",
         "lib/net6.0/HealthChecks.UI.Core.xml"
       ]
     },
-    "AspNetCore.HealthChecks.UI.Data/8.0.0": {
-      "sha512": "NXusaXSLlxIOBgTBLJEkOWcz6eG0iIdazTQb6nvwWvYJ3jAQT+/82bhKpw2hDoGKRCKF3yibNbW1lM/If8TtVQ==",
+    "AspNetCore.HealthChecks.UI.Data/8.0.1": {
+      "sha512": "zST5YYRtE8nTIdlXDC0Sq6bBDrA07ewZRBHr9ZQ+448+cQPJwksXA7M0bZRg4VnE7mGSqkFhifGyGh46XYFvOQ==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.ui.data/8.0.0",
+      "path": "aspnetcore.healthchecks.ui.data/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.ui.data.8.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.ui.data.8.0.1.nupkg.sha512",
         "aspnetcore.healthchecks.ui.data.nuspec",
         "icon.png",
         "lib/net8.0/HealthChecks.UI.Data.dll",
         "lib/net8.0/HealthChecks.UI.Data.xml"
       ]
     },
-    "AspNetCore.HealthChecks.UI.InMemory.Storage/8.0.0": {
-      "sha512": "9lPwKivRRz51zSdkWT3e0W6o58EDiGmmWkQNjrWBJGgTpCd1BTCEA22P0MvhRwK4eGeauIaDl07rhWJ1eoFhnw==",
+    "AspNetCore.HealthChecks.UI.InMemory.Storage/8.0.1": {
+      "sha512": "FyVAIARWm8ofpedMm0101z62KM67OCiIxcyQ8/GMllyoc2KA33vFbz4OEWICEALWwiKv53GNr6XRrPCBqUmBmg==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.ui.inmemory.storage/8.0.0",
+      "path": "aspnetcore.healthchecks.ui.inmemory.storage/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.ui.inmemory.storage.8.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.ui.inmemory.storage.8.0.1.nupkg.sha512",
         "aspnetcore.healthchecks.ui.inmemory.storage.nuspec",
         "icon.png",
         "lib/net8.0/HealthChecks.UI.InMemory.Storage.dll",
         "lib/net8.0/HealthChecks.UI.InMemory.Storage.xml"
       ]
     },
-    "AspNetCore.HealthChecks.Uris/8.0.0": {
-      "sha512": "bYn0i58h1F4TXzvE4ypbSGlbuw734Si7zNrF7Ovb/pbS0QlfDyWpYJQBT0KnpuD8hJX6tyLZvQfcfm1I/c4z8w==",
+    "AspNetCore.HealthChecks.Uris/8.0.1": {
+      "sha512": "A1ahRx4pdXjrSGlGFLoyoXOV4Lfp5sfs+OIGfvi14RwecIAac4xs6cP0Q8tw/rv4Ng+KAaYpzD4qhxXVwUcIyA==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.uris/8.0.0",
+      "path": "aspnetcore.healthchecks.uris/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.uris.8.0.0.nupkg.sha512",
+        "aspnetcore.healthchecks.uris.8.0.1.nupkg.sha512",
         "aspnetcore.healthchecks.uris.nuspec",
         "icon.png",
         "lib/net5.0/HealthChecks.Uris.dll",
@@ -4373,10 +4355,10 @@
         "microsoft.applicationinsights.eventcountercollector.nuspec"
       ]
     },
-    "Microsoft.ApplicationInsights.Kubernetes/6.1.2": {
-      "sha512": "OZI358w8gTlvXk+2xf2zDLgxSNhk2hMYQ5XX6U8h3ScNc7sbFWtNYHPNuwoGHweeu3JIctVJCJYMJAvl5cgyYQ==",
+    "Microsoft.ApplicationInsights.Kubernetes/7.0.0": {
+      "sha512": "NF7HsDqEPTLkqnm2NyA+xBLE4qzEaY5UEkdhywGeZgI0hjrpbjuFafrZOZPjqMV38WXZ24yv7c4K251+9OgOfw==",
       "type": "package",
-      "path": "microsoft.applicationinsights.kubernetes/6.1.2",
+      "path": "microsoft.applicationinsights.kubernetes/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4385,7 +4367,7 @@
         "images/icon.png",
         "lib/net6.0/Microsoft.ApplicationInsights.Kubernetes.dll",
         "lib/net6.0/Microsoft.ApplicationInsights.Kubernetes.xml",
-        "microsoft.applicationinsights.kubernetes.6.1.2.nupkg.sha512",
+        "microsoft.applicationinsights.kubernetes.7.0.0.nupkg.sha512",
         "microsoft.applicationinsights.kubernetes.nuspec"
       ]
     },
@@ -6008,10 +5990,10 @@
         "microsoft.extensions.logging.applicationinsights.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.AzureAppServices/8.0.3": {
-      "sha512": "hsMKGRKZKOrE8osB993C45PinRs27OVEN+Dw/kHnYdi3dkJYIKB93Wscp715qVQGlKEsrZ1glfkfFyeMypZ3Uw==",
+    "Microsoft.Extensions.Logging.AzureAppServices/8.0.6": {
+      "sha512": "uyxdYFbrP15SV+KPV/hNe3fPQZEXqpHF6cur2cDswqJlhboQYTWsTmGKoZiIRAUOpHfBOFUT023kHmvz8kTsTw==",
       "type": "package",
-      "path": "microsoft.extensions.logging.azureappservices/8.0.3",
+      "path": "microsoft.extensions.logging.azureappservices/8.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -6023,7 +6005,7 @@
         "lib/net8.0/Microsoft.Extensions.Logging.AzureAppServices.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.AzureAppServices.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.AzureAppServices.xml",
-        "microsoft.extensions.logging.azureappservices.8.0.3.nupkg.sha512",
+        "microsoft.extensions.logging.azureappservices.8.0.6.nupkg.sha512",
         "microsoft.extensions.logging.azureappservices.nuspec"
       ]
     },
@@ -6919,23 +6901,26 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "Serilog/3.1.1": {
-      "sha512": "P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
+    "Serilog/4.0.0": {
+      "sha512": "2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
       "type": "package",
-      "path": "serilog/3.1.1",
+      "path": "serilog/4.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net462/Serilog.dll",
+        "lib/net462/Serilog.xml",
         "lib/net471/Serilog.dll",
-        "lib/net5.0/Serilog.dll",
+        "lib/net471/Serilog.xml",
         "lib/net6.0/Serilog.dll",
-        "lib/net7.0/Serilog.dll",
+        "lib/net6.0/Serilog.xml",
+        "lib/net8.0/Serilog.dll",
+        "lib/net8.0/Serilog.xml",
         "lib/netstandard2.0/Serilog.dll",
-        "lib/netstandard2.1/Serilog.dll",
-        "serilog.3.1.1.nupkg.sha512",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.4.0.0.nupkg.sha512",
         "serilog.nuspec"
       ]
     },
@@ -6962,18 +6947,26 @@
         "serilog.aspnetcore.nuspec"
       ]
     },
-    "Serilog.Enrichers.Environment/2.3.0": {
-      "sha512": "AdZXURQ0dQCCjst3Jn3lwFtGicWjGE4wov9E5BPc4N5cruGmd2y9wprCYEjFteU84QMbxk35fpeTuHs6M4VGYw==",
+    "Serilog.Enrichers.Environment/3.0.1": {
+      "sha512": "9BqCE4C9FF+/rJb/CsQwe7oVf44xqkOvMwX//CUxvUR25lFL4tSS6iuxE5eW07quby1BAyAEP+vM6TWsnT3iqw==",
       "type": "package",
-      "path": "serilog.enrichers.environment/2.3.0",
+      "path": "serilog.enrichers.environment/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/Serilog.Enrichers.Environment.dll",
-        "lib/netstandard1.3/Serilog.Enrichers.Environment.dll",
-        "lib/netstandard1.5/Serilog.Enrichers.Environment.dll",
+        "README.md",
+        "lib/net462/Serilog.Enrichers.Environment.dll",
+        "lib/net462/Serilog.Enrichers.Environment.xml",
+        "lib/net471/Serilog.Enrichers.Environment.dll",
+        "lib/net471/Serilog.Enrichers.Environment.xml",
+        "lib/net6.0/Serilog.Enrichers.Environment.dll",
+        "lib/net6.0/Serilog.Enrichers.Environment.xml",
+        "lib/net8.0/Serilog.Enrichers.Environment.dll",
+        "lib/net8.0/Serilog.Enrichers.Environment.xml",
         "lib/netstandard2.0/Serilog.Enrichers.Environment.dll",
-        "serilog.enrichers.environment.2.3.0.nupkg.sha512",
+        "lib/netstandard2.0/Serilog.Enrichers.Environment.xml",
+        "serilog-enricher-nuget.png",
+        "serilog.enrichers.environment.3.0.1.nupkg.sha512",
         "serilog.enrichers.environment.nuspec"
       ]
     },
@@ -7050,10 +7043,10 @@
         "serilog.formatting.compact.nuspec"
       ]
     },
-    "Serilog.Settings.Configuration/8.0.0": {
-      "sha512": "nR0iL5HwKj5v6ULo3/zpP8NMcq9E2pxYA6XKTSWCbugVs4YqPyvaqaKOY+OMpPivKp7zMEpax2UKHnDodbRB0Q==",
+    "Serilog.Settings.Configuration/8.0.1": {
+      "sha512": "KOEABqMUdEc8Lpq51Nmiv69Je53mKE6yle4ac2jt3QYiBI0FKKFZCVV6MnkD/z3FonNMjUs/vLOa1mrhzexgCA==",
       "type": "package",
-      "path": "serilog.settings.configuration/8.0.0",
+      "path": "serilog.settings.configuration/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7069,27 +7062,30 @@
         "lib/net8.0/Serilog.Settings.Configuration.xml",
         "lib/netstandard2.0/Serilog.Settings.Configuration.dll",
         "lib/netstandard2.0/Serilog.Settings.Configuration.xml",
-        "serilog.settings.configuration.8.0.0.nupkg.sha512",
+        "serilog.settings.configuration.8.0.1.nupkg.sha512",
         "serilog.settings.configuration.nuspec"
       ]
     },
-    "Serilog.Sinks.Console/5.0.1": {
-      "sha512": "6Jt8jl9y2ey8VV7nVEUAyjjyxjAQuvd5+qj4XYAT9CwcsvR70HHULGBeD+K2WCALFXf7CFsNQT4lON6qXcu2AA==",
+    "Serilog.Sinks.Console/6.0.0": {
+      "sha512": "fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
       "type": "package",
-      "path": "serilog.sinks.console/5.0.1",
+      "path": "serilog.sinks.console/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net462/Serilog.Sinks.Console.dll",
+        "lib/net462/Serilog.Sinks.Console.xml",
         "lib/net471/Serilog.Sinks.Console.dll",
-        "lib/net5.0/Serilog.Sinks.Console.dll",
+        "lib/net471/Serilog.Sinks.Console.xml",
         "lib/net6.0/Serilog.Sinks.Console.dll",
-        "lib/net7.0/Serilog.Sinks.Console.dll",
+        "lib/net6.0/Serilog.Sinks.Console.xml",
+        "lib/net8.0/Serilog.Sinks.Console.dll",
+        "lib/net8.0/Serilog.Sinks.Console.xml",
         "lib/netstandard2.0/Serilog.Sinks.Console.dll",
-        "lib/netstandard2.1/Serilog.Sinks.Console.dll",
-        "serilog.sinks.console.5.0.1.nupkg.sha512",
+        "lib/netstandard2.0/Serilog.Sinks.Console.xml",
+        "serilog.sinks.console.6.0.0.nupkg.sha512",
         "serilog.sinks.console.nuspec"
       ]
     },
@@ -7132,50 +7128,29 @@
         "serilog.sinks.file.nuspec"
       ]
     },
-    "Serilog.Sinks.Http/8.0.0": {
-      "sha512": "eHyl2/93Roymf2eudPl/6Eeu2GQ93Ucy4GM1UPF0jyd7CIW8r+Bk5ohdbjjyjB9TQSpP2ovOuj6ltf9DjoWHtg==",
+    "Serilog.Sinks.Http/9.0.0": {
+      "sha512": "c246Bw1vXtvht/krwQXGwuZ4U2kKxRf8d9iaazZDodnOohTlRR4jZyQS/slWHSjJAj8ZDejCQcITnu+TkYmdFw==",
       "type": "package",
-      "path": "serilog.sinks.http/8.0.0",
+      "path": "serilog.sinks.http/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "lib/net45/Serilog.Sinks.Http.dll",
-        "lib/net45/Serilog.Sinks.Http.xml",
-        "lib/net461/Serilog.Sinks.Http.dll",
-        "lib/net461/Serilog.Sinks.Http.xml",
+        "lib/net462/Serilog.Sinks.Http.dll",
+        "lib/net462/Serilog.Sinks.Http.xml",
         "lib/netstandard2.0/Serilog.Sinks.Http.dll",
         "lib/netstandard2.0/Serilog.Sinks.Http.xml",
         "lib/netstandard2.1/Serilog.Sinks.Http.dll",
         "lib/netstandard2.1/Serilog.Sinks.Http.xml",
         "serilog-sink-nuget.png",
-        "serilog.sinks.http.8.0.0.nupkg.sha512",
+        "serilog.sinks.http.9.0.0.nupkg.sha512",
         "serilog.sinks.http.nuspec"
       ]
     },
-    "Serilog.Sinks.PeriodicBatching/4.0.0": {
-      "sha512": "kxg6QLNA1sDVqYEE7/6hCr/Ur3imS+qaoEqriQh07WTU1/b6jknnuVN1rWQpj67JpwAXXTmgI3Js9IGGktgumQ==",
+    "Serilog.Sinks.Seq/8.0.0": {
+      "sha512": "z5ig56/qzjkX6Fj4U/9m1g8HQaQiYPMZS4Uevtjg1I+WWzoGSf5t/E+6JbMP/jbZYhU63bA5NJN5y0x+qqx2Bw==",
       "type": "package",
-      "path": "serilog.sinks.periodicbatching/4.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "icon.png",
-        "lib/net462/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/net462/Serilog.Sinks.PeriodicBatching.xml",
-        "lib/net6.0/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/net6.0/Serilog.Sinks.PeriodicBatching.xml",
-        "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.xml",
-        "serilog.sinks.periodicbatching.4.0.0.nupkg.sha512",
-        "serilog.sinks.periodicbatching.nuspec"
-      ]
-    },
-    "Serilog.Sinks.Seq/7.0.0": {
-      "sha512": "GEi6SZnlhFGpzsWu/xit883Bn67vAssUItXIFsVTmyxaRL7h7Xk2/BUswoM/iqwOBJzj5P9xU4IBf/IAoVklPg==",
-      "type": "package",
-      "path": "serilog.sinks.seq/7.0.0",
+      "path": "serilog.sinks.seq/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7185,7 +7160,7 @@
         "lib/net6.0/Serilog.Sinks.Seq.xml",
         "lib/netstandard2.0/Serilog.Sinks.Seq.dll",
         "lib/netstandard2.0/Serilog.Sinks.Seq.xml",
-        "serilog.sinks.seq.7.0.0.nupkg.sha512",
+        "serilog.sinks.seq.8.0.0.nupkg.sha512",
         "serilog.sinks.seq.nuspec"
       ]
     },
@@ -9804,34 +9779,29 @@
         "system.threading.nuspec"
       ]
     },
-    "System.Threading.Channels/8.0.0": {
-      "sha512": "CMaFr7v+57RW7uZfZkPExsPB6ljwzhjACWW1gfU35Y56rk72B/Wu+sTqxVmGSk4SFUlPc3cjeKND0zktziyjBA==",
+    "System.Threading.Channels/6.0.0": {
+      "sha512": "TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
       "type": "package",
-      "path": "system.threading.channels/8.0.0",
+      "path": "system.threading.channels/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
-        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Threading.Channels.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
-        "lib/net462/System.Threading.Channels.dll",
-        "lib/net462/System.Threading.Channels.xml",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
         "lib/net6.0/System.Threading.Channels.dll",
         "lib/net6.0/System.Threading.Channels.xml",
-        "lib/net7.0/System.Threading.Channels.dll",
-        "lib/net7.0/System.Threading.Channels.xml",
-        "lib/net8.0/System.Threading.Channels.dll",
-        "lib/net8.0/System.Threading.Channels.xml",
+        "lib/netcoreapp3.1/System.Threading.Channels.dll",
+        "lib/netcoreapp3.1/System.Threading.Channels.xml",
         "lib/netstandard2.0/System.Threading.Channels.dll",
         "lib/netstandard2.0/System.Threading.Channels.xml",
         "lib/netstandard2.1/System.Threading.Channels.dll",
         "lib/netstandard2.1/System.Threading.Channels.xml",
-        "system.threading.channels.8.0.0.nupkg.sha512",
+        "system.threading.channels.6.0.0.nupkg.sha512",
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -10231,43 +10201,51 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AspNetCore.HealthChecks.UI >= 8.0.0",
-      "AspNetCore.HealthChecks.UI.Client >= 8.0.0",
-      "AspNetCore.HealthChecks.UI.InMemory.Storage >= 8.0.0",
-      "AspNetCore.HealthChecks.Uris >= 8.0.0",
+      "AspNetCore.HealthChecks.UI >= 8.0.1",
+      "AspNetCore.HealthChecks.UI.Client >= 8.0.1",
+      "AspNetCore.HealthChecks.UI.InMemory.Storage >= 8.0.1",
+      "AspNetCore.HealthChecks.Uris >= 8.0.1",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.22.0",
       "Microsoft.ApplicationInsights.DependencyCollector >= 2.22.0",
-      "Microsoft.ApplicationInsights.Kubernetes >= 6.1.2",
+      "Microsoft.ApplicationInsights.Kubernetes >= 7.0.0",
       "Microsoft.Extensions.Configuration.AzureKeyVault >= 3.1.24",
-      "Microsoft.Extensions.Logging.AzureAppServices >= 8.0.3",
+      "Microsoft.Extensions.Logging.AzureAppServices >= 8.0.6",
       "Microsoft.Web.LibraryManager.Build >= 2.1.175",
       "Serilog.AspNetCore >= 8.0.1",
-      "Serilog.Enrichers.Environment >= 2.3.0",
-      "Serilog.Settings.Configuration >= 8.0.0",
-      "Serilog.Sinks.Console >= 5.0.1",
-      "Serilog.Sinks.Http >= 8.0.0",
-      "Serilog.Sinks.Seq >= 7.0.0"
+      "Serilog.Enrichers.Environment >= 3.0.1",
+      "Serilog.Settings.Configuration >= 8.0.1",
+      "Serilog.Sinks.Console >= 6.0.0",
+      "Serilog.Sinks.Http >= 9.0.0",
+      "Serilog.Sinks.Seq >= 8.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\": {}
+    "C:\\Users\\natyo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Web\\WebStatus\\WebStatus.csproj",
+      "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Web\\WebStatus\\WebStatus.csproj",
       "projectName": "WebStatus",
-      "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Web\\WebStatus\\WebStatus.csproj",
-      "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Web\\WebStatus\\obj\\",
+      "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Web\\WebStatus\\WebStatus.csproj",
+      "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Web\\WebStatus\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10293,19 +10271,19 @@
         "dependencies": {
           "AspNetCore.HealthChecks.UI": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.1, )"
           },
           "AspNetCore.HealthChecks.UI.Client": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.1, )"
           },
           "AspNetCore.HealthChecks.UI.InMemory.Storage": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.1, )"
           },
           "AspNetCore.HealthChecks.Uris": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.1, )"
           },
           "Microsoft.ApplicationInsights.AspNetCore": {
             "target": "Package",
@@ -10317,7 +10295,7 @@
           },
           "Microsoft.ApplicationInsights.Kubernetes": {
             "target": "Package",
-            "version": "[6.1.2, )"
+            "version": "[7.0.0, )"
           },
           "Microsoft.Extensions.Configuration.AzureKeyVault": {
             "target": "Package",
@@ -10325,7 +10303,7 @@
           },
           "Microsoft.Extensions.Logging.AzureAppServices": {
             "target": "Package",
-            "version": "[8.0.3, )"
+            "version": "[8.0.6, )"
           },
           "Microsoft.Web.LibraryManager.Build": {
             "target": "Package",
@@ -10337,23 +10315,23 @@
           },
           "Serilog.Enrichers.Environment": {
             "target": "Package",
-            "version": "[2.3.0, )"
+            "version": "[3.0.1, )"
           },
           "Serilog.Settings.Configuration": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.1, )"
           },
           "Serilog.Sinks.Console": {
             "target": "Package",
-            "version": "[5.0.1, )"
+            "version": "[6.0.0, )"
           },
           "Serilog.Sinks.Http": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[9.0.0, )"
           },
           "Serilog.Sinks.Seq": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[8.0.0, )"
           }
         },
         "imports": [
@@ -10376,7 +10354,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

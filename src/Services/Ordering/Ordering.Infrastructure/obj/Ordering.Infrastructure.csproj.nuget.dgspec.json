@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {}
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
         "projectName": "Ordering.Domain",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +52,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[12.3.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -68,34 +75,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
         "projectName": "Ordering.Infrastructure",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
               }
             }
           }
@@ -117,7 +131,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[12.3.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -125,11 +139,11 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
@@ -152,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

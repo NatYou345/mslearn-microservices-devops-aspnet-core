@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yIQUHBTEiF+5QYtEYZve5bnBSnOcuv52QObtsgZo3JBlzhI6+r/YZJHYrgHKPa9Ji8wrSYRqvoU9yqn7JMOang==",
+  "dgSpecHash": "P7rJL8BeQaM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+  "projectFilePath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\natyo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

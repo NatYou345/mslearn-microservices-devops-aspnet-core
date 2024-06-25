@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj": {}
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
         "projectName": "EventBusRabbitMQ",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               }
             }
           }
@@ -65,7 +72,7 @@
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.3.1, )"
+              "version": "[8.4.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -88,34 +95,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
         "projectName": "EventBusServiceBus",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               }
             }
           }
@@ -168,26 +182,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
         "projectName": "EventBus",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -232,34 +253,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
         "projectName": "IntegrationEventLogEF",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               }
             }
           }
@@ -281,19 +309,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -316,43 +344,50 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj",
         "projectName": "Payment.API",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\Payment.API.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\Services\\Payment\\Payment.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
               },
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusServiceBus\\EventBusServiceBus.csproj"
               },
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
               },
-              "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj"
+              "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
+                "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj"
               }
             }
           }
@@ -374,15 +409,15 @@
           "dependencies": {
             "AspNetCore.HealthChecks.AzureServiceBus": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
@@ -398,7 +433,7 @@
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[6.1.2, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.Configuration.AzureKeyVault": {
               "target": "Package",
@@ -406,7 +441,7 @@
             },
             "Microsoft.Extensions.Logging.AzureAppServices": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -414,23 +449,23 @@
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
-              "version": "[2.3.0, )"
+              "version": "[3.0.1, )"
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -453,7 +488,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

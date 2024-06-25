@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj": {}
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj": {
+    "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
+        "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
         "projectName": "Web.Shopping.HttpAggregator",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\obj\\",
+        "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\Web.Shopping.HttpAggregator.csproj",
+        "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\ApiGateways\\Aggregators\\Web.Shopping.HttpAggregator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,19 +52,19 @@
           "dependencies": {
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "AspNetCore.HealthChecks.Uris": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.26.0, )"
+              "version": "[3.27.1, )"
             },
             "Grpc.AspNetCore.Server.ClientFactory": {
               "target": "Package",
-              "version": "[2.61.0, )"
+              "version": "[2.63.0, )"
             },
             "Grpc.Core": {
               "target": "Package",
@@ -65,24 +72,24 @@
             },
             "Grpc.Net.Client": {
               "target": "Package",
-              "version": "[2.61.0, )"
+              "version": "[2.63.0, )"
             },
             "Grpc.Tools": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.62.0, )"
+              "version": "[2.64.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -90,19 +97,19 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -124,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -151,10 +151,10 @@
           }
         }
       },
-      "Polly/8.3.1": {
+      "Polly/8.4.0": {
         "type": "package",
         "dependencies": {
-          "Polly.Core": "8.3.1"
+          "Polly.Core": "8.4.0"
         },
         "compile": {
           "lib/net6.0/Polly.dll": {
@@ -167,7 +167,7 @@
           }
         }
       },
-      "Polly.Core/8.3.1": {
+      "Polly.Core/8.4.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Polly.Core.dll": {
@@ -600,10 +600,10 @@
         "packageIcon.png"
       ]
     },
-    "Polly/8.3.1": {
-      "sha512": "xN9AxOudus8u4a//Tfu6Wxd5Oj7S4pjh/651S6FfIiVrbxQ8TeM+ieZC8c0y7Qto70zKBM5g8rBTqbAJnbetOA==",
+    "Polly/8.4.0": {
+      "sha512": "z2EeUutuy49jBQyZ5s2FUuTCGx3GCzJ0cJ2HbjWwks94TsC6bKTtAHKBkMZOa/DyYRl5yIX7MshvMTWl1J6RNg==",
       "type": "package",
-      "path": "polly/8.3.1",
+      "path": "polly/8.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -621,14 +621,14 @@
         "lib/netstandard2.0/Polly.xml",
         "package-icon.png",
         "package-readme.md",
-        "polly.8.3.1.nupkg.sha512",
+        "polly.8.4.0.nupkg.sha512",
         "polly.nuspec"
       ]
     },
-    "Polly.Core/8.3.1": {
-      "sha512": "b9mMAjqXuCXFCtf/RtRPwFUkAm/sz37s7G+taDvS5EqfkJsLiWfO2xO2cSISjIgIY+88oIZTGguP6UrRGRlqzg==",
+    "Polly.Core/8.4.0": {
+      "sha512": "3AZxuP//pxOeBo9tQs7/tz4Z5TTbu4BYfjpaXZD0JYKJo98ngN9TMUz1nybh4k0ykWkMBpGZALV/AmVIE3ew7A==",
       "type": "package",
-      "path": "polly.core/8.3.1",
+      "path": "polly.core/8.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -649,7 +649,7 @@
         "lib/netstandard2.0/Polly.Core.xml",
         "package-icon.png",
         "package-readme.md",
-        "polly.core.8.3.1.nupkg.sha512",
+        "polly.core.8.4.0.nupkg.sha512",
         "polly.core.nuspec"
       ]
     },
@@ -762,37 +762,45 @@
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Newtonsoft.Json >= 13.0.3",
-      "Polly >= 8.3.1",
+      "Polly >= 8.4.0",
       "RabbitMQ.Client >= 6.8.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\": {}
+    "C:\\Users\\natyo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+      "projectUniqueName": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
       "projectName": "EventBusRabbitMQ",
-      "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
-      "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\obj\\",
+      "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+      "packagesPath": "C:\\Users\\natyo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBusRabbitMQ\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\natyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
-              "projectPath": "C:\\Users\\ALLEGRANathan\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
+            "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj": {
+              "projectPath": "C:\\Users\\natyo\\mslearn-microservices-devops-aspnet-core\\src\\BuildingBlocks\\EventBus\\EventBus\\EventBus.csproj"
             }
           }
         }
@@ -830,7 +838,7 @@
           },
           "Polly": {
             "target": "Package",
-            "version": "[8.3.1, )"
+            "version": "[8.4.0, )"
           },
           "RabbitMQ.Client": {
             "target": "Package",
@@ -853,7 +861,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
