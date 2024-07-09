@@ -15,36 +15,36 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="8.0.2" />
-    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
-    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="4.1.2" />
-    <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="4.1.2" />
-    <PackageReference Include="IdentityServer4.EntityFramework" Version="4.1.2" />
-    <PackageReference Include="IdentityServer4.Storage" Version="4.1.2" />
-    <PackageReference Include="IdentityServer4" Version="4.1.2" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="7.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.24" />
-    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.175" />
-    <PackageReference Include="Polly" Version="8.4.0" />
-    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
-    <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.1" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
-    <PackageReference Include="Serilog.Sinks.Http" Version="9.0.0" />
-    <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.6.2" />
-    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="8.0.6" />
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.6" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.6" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
-    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.6" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="Unknown" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="Unknown" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="Unknown" />
+    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="Unknown" />
+    <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="Unknown" />
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="Unknown" />
+    <PackageReference Include="IdentityServer4.Storage" Version="Unknown" />
+    <PackageReference Include="IdentityServer4" Version="Unknown" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="Unknown" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="Unknown" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="Unknown" />
+    <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="Unknown" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="Unknown" />
+    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="Unknown" />
+    <PackageReference Include="Polly" Version="Unknown" />
+    <PackageReference Include="Serilog.AspNetCore" Version="Unknown" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="Unknown" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="Unknown" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="Unknown" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="Unknown" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="Unknown" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="Unknown" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="Unknown" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="Unknown" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="Unknown" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="Unknown" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="Unknown" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="Unknown" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="Unknown" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="Unknown" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Setup\*">
