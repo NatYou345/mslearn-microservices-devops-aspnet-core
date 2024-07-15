@@ -88,6 +88,6 @@
     "typedoc": "^0.26.3",
     "typescript": "5.5.3",
     "url-loader": "4.1.1",
-    "webpack": "^5.92.1"
+    "webpack": "^5.93.0"
   }
 }
