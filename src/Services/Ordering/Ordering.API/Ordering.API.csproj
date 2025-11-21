@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <UserSecretsId>aspnet-Ordering.API-20161122013547</UserSecretsId>
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
     <GenerateErrorForMissingTargetingPacks>false</GenerateErrorForMissingTargetingPacks>
@@ -33,38 +33,38 @@
     <ProjectReference Include="..\Ordering.Infrastructure\Ordering.Infrastructure.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="Unknown" />
-    <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="Unknown" />
-    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="Unknown" />
-    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="Unknown" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="Unknown" />
-    <PackageReference Include="Dapper" Version="Unknown" />
-    <PackageReference Include="FluentValidation.AspNetCore" Version="Unknown" />
-    <PackageReference Include="Google.Protobuf" Version="Unknown" />
-    <PackageReference Include="Grpc.AspNetCore.Server" Version="Unknown" />
-    <PackageReference Include="Grpc.Tools" Version="Unknown" PrivateAssets="All" />
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="Unknown" />
-    <PackageReference Include="MediatR" Version="Unknown" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="Unknown" />
-    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="Unknown" />
-    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="Unknown" />
-    <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="Unknown" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="Unknown" />
-    <PackageReference Include="Polly" Version="Unknown" />
-    <PackageReference Include="Serilog.AspNetCore" Version="Unknown" />
-    <PackageReference Include="Serilog.Enrichers.Environment" Version="Unknown" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="Unknown" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="Unknown" />
-    <PackageReference Include="Serilog.Sinks.Http" Version="Unknown" />
-    <PackageReference Include="Serilog.Sinks.Seq" Version="Unknown" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="Unknown" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="Unknown" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="Unknown" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="Unknown" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="Unknown" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="Unknown" />
-    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="Unknown" />
-    <PackageReference Include="Microsoft.NETCore.Platforms" Version="Unknown" />
+    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="8.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="8.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.28.3" />
+    <PackageReference Include="Grpc.AspNetCore.Server" Version="2.70.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.68.1" PrivateAssets="All" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.24" />
+    <PackageReference Include="Polly" Version="8.5.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.4" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="7.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="9.0.0" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Setup\*">

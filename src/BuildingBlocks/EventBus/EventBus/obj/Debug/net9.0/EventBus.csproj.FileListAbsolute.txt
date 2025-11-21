@@ -1,0 +1,13 @@
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/bin/Debug/net9.0/EventBus.deps.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/bin/Debug/net9.0/EventBus.dll
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/bin/Debug/net9.0/EventBus.pdb
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.csproj.AssemblyReference.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.AssemblyInfoInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.AssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.csproj.CoreCompileInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.sourcelink.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.dll
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/refint/EventBus.dll
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/EventBus.pdb
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBus/obj/Debug/net9.0/ref/EventBus.dll

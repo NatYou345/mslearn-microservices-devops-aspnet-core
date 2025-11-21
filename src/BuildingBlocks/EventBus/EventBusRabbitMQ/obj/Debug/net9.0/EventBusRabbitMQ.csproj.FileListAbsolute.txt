@@ -1,0 +1,16 @@
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/bin/Debug/net9.0/EventBusRabbitMQ.deps.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/bin/Debug/net9.0/EventBusRabbitMQ.dll
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/bin/Debug/net9.0/EventBusRabbitMQ.pdb
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/bin/Debug/net9.0/EventBus.dll
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/bin/Debug/net9.0/EventBus.pdb
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.csproj.AssemblyReference.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.AssemblyInfoInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.AssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.sourcelink.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBus.420B731B.Up2Date
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.dll
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/refint/EventBusRabbitMQ.dll
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/EventBusRabbitMQ.pdb
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/BuildingBlocks/EventBus/EventBusRabbitMQ/obj/Debug/net9.0/ref/EventBusRabbitMQ.dll
