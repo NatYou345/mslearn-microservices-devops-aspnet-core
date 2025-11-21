@@ -19,11 +19,11 @@
           }
         }
       },
-      "AspNetCore.HealthChecks.MongoDb/8.0.1": {
+      "AspNetCore.HealthChecks.MongoDb/8.1.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.0",
-          "MongoDB.Driver": "2.22.0"
+          "MongoDB.Driver": "2.28.0"
         },
         "compile": {
           "lib/net6.0/HealthChecks.MongoDb.dll": {
@@ -4010,14 +4010,14 @@
         "lib/netstandard2.0/HealthChecks.AzureServiceBus.xml"
       ]
     },
-    "AspNetCore.HealthChecks.MongoDb/8.0.1": {
-      "sha512": "/IZb7dDJBalyF7eE1/Ql5zFcTqVSAejYIPpzMThzgTj049GhvuYWdMJsMf+Y2+u1vUlG0vy0PKE763XdIuaoFg==",
+    "AspNetCore.HealthChecks.MongoDb/8.1.0": {
+      "sha512": "NuVDrj7UXBVniePh6JnuM8ryZRWdOIGOBes3owg2WQV/1NPntpWqX/DYaP6SBduHULUp8XRbwAui8qKQAW4SDA==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.mongodb/8.0.1",
+      "path": "aspnetcore.healthchecks.mongodb/8.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.mongodb.8.0.1.nupkg.sha512",
+        "aspnetcore.healthchecks.mongodb.8.1.0.nupkg.sha512",
         "aspnetcore.healthchecks.mongodb.nuspec",
         "icon.png",
         "lib/net6.0/HealthChecks.MongoDb.dll",
@@ -10017,7 +10017,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "AspNetCore.HealthChecks.AzureServiceBus >= 8.0.1",
-      "AspNetCore.HealthChecks.MongoDb >= 8.0.1",
+      "AspNetCore.HealthChecks.MongoDb >= 8.1.0",
       "AspNetCore.HealthChecks.Rabbitmq >= 8.0.2",
       "AspNetCore.HealthChecks.SqlServer >= 8.0.2",
       "AspNetCore.HealthChecks.UI.Client >= 8.0.1",
@@ -10099,7 +10099,7 @@
           },
           "AspNetCore.HealthChecks.MongoDb": {
             "target": "Package",
-            "version": "[8.0.1, )"
+            "version": "[8.1.0, )"
           },
           "AspNetCore.HealthChecks.Rabbitmq": {
             "target": "Package",

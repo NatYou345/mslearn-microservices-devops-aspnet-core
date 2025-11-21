@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebHost.Customization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b64b80f9c1e274691e69d33b1eabbe6c9b6c3487")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0f5afd71ea1396848016e38484893245acef40d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebHost.Customization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebHost.Customization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

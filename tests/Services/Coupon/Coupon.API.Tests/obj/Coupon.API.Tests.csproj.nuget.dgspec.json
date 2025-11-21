@@ -295,7 +295,7 @@
             },
             "AspNetCore.HealthChecks.MongoDb": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.1.0, )"
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
