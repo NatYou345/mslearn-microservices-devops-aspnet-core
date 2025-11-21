@@ -1,0 +1,9 @@
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.csproj.AssemblyReference.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.AssemblyInfoInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.AssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.csproj.CoreCompileInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.MvcApplicationPartsAssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.MvcApplicationPartsAssemblyInfo.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Coupon/Coupon.API/obj/Debug/net9.0/Coupon.API.sourcelink.json

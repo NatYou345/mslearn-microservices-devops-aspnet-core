@@ -1,0 +1,9 @@
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.csproj.AssemblyReference.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.AssemblyInfoInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.AssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.csproj.CoreCompileInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.MvcApplicationPartsAssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.MvcApplicationPartsAssemblyInfo.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Basket/Basket.API/obj/Debug/net9.0/Basket.API.sourcelink.json
