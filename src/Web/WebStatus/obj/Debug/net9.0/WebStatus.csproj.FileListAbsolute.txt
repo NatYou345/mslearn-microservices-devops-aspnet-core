@@ -1,0 +1,10 @@
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.csproj.AssemblyReference.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/rpswa.dswa.cache.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.AssemblyInfoInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.AssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.csproj.CoreCompileInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.MvcApplicationPartsAssemblyInfo.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.RazorAssemblyInfo.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.RazorAssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Web/WebStatus/obj/Debug/net9.0/WebStatus.sourcelink.json
