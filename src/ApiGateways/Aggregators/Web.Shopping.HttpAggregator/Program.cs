@@ -51,7 +51,6 @@ namespace Microsoft.eShopOnContainers.Web.Shopping.HttpAggregator
                     });
                 })
                 .UseStartup<Startup>()
-                .UseSerilog()
                 .Build();
 
         private static Serilog.ILogger CreateSerilogLogger()

@@ -10,6 +10,7 @@ using Ordering.Infrastructure.EntityConfigurations;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -151,6 +152,16 @@ namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure
             public Task<object> Send(object request, CancellationToken cancellationToken = default)
             {
                 return Task.FromResult(default(object));
+            }
+
+            public async IAsyncEnumerable<TResponse> CreateStream<TResponse>(IStreamRequest<TResponse> request, [System.Runtime.CompilerServices.EnumeratorCancellation] CancellationToken cancellationToken = default)
+            {
+                yield break;
+            }
+
+            public async IAsyncEnumerable<object> CreateStream(object request, [System.Runtime.CompilerServices.EnumeratorCancellation] CancellationToken cancellationToken = default)
+            {
+                yield break;
             }
         }
     }

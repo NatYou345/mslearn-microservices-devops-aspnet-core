@@ -28,15 +28,13 @@ namespace eShopConContainers.WebSPA
                     builder.AddConsole();
                     builder.AddDebug();
                     builder.AddAzureWebAppDiagnostics();
-                })
-                .UseSerilog((builderContext, config) =>
-                {
-                    config
+                    builder.AddSerilog(new LoggerConfiguration()
                         .MinimumLevel.Information()
                         .Enrich.FromLogContext()
                         .WriteTo.Seq("http://seq")
-                        .ReadFrom.Configuration(builderContext.Configuration)
-                        .WriteTo.Console();
+                        .ReadFrom.Configuration(hostingContext.Configuration)
+                        .WriteTo.Console()
+                        .CreateLogger());
                 })
                 .Build();
     }
