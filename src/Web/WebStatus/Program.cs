@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -50,7 +51,10 @@ namespace WebStatus
                 .UseStartup<Startup>()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseConfiguration(configuration)
-                .UseSerilog()
+                .ConfigureLogging((hostingContext, logging) =>
+                {
+                    logging.AddSerilog(dispose: true);
+                })
                 .Build();
 
         private static Serilog.ILogger CreateSerilogLogger(IConfiguration configuration)

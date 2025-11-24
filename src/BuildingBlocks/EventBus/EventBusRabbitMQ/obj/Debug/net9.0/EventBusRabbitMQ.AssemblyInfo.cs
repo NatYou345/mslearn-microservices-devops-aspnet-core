@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventBusRabbitMQ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bdf980634be18e4daf02d3948169cd4cab5c42c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b034656c1758863ade537612b8db7e685a3035f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventBusRabbitMQ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventBusRabbitMQ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

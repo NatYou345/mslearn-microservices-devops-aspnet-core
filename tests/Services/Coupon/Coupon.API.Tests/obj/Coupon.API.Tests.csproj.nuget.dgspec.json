@@ -135,7 +135,7 @@
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.8.1, )"
             }
           },
           "imports": [
@@ -299,7 +299,7 @@
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.2, )"
             },
             "AspNetCore.HealthChecks.Redis": {
               "target": "Package",
@@ -429,7 +429,7 @@
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.8.1, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -453,11 +453,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[7.2.0, )"
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
@@ -533,7 +533,7 @@
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.2, )"
             },
             "AspNetCore.HealthChecks.Redis": {
               "target": "Package",
@@ -647,7 +647,7 @@
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.8.1, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -671,11 +671,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[7.2.0, )"
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[7.2.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

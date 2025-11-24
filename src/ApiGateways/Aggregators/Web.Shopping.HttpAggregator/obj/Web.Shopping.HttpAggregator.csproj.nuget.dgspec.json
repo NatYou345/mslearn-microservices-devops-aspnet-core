@@ -99,11 +99,11 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[7.2.0, )"
             },
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
