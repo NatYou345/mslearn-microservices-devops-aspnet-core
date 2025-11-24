@@ -47,7 +47,6 @@ namespace Payment.API
                 .UseStartup<Startup>()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseConfiguration(configuration)
-                .UseSerilog()
                 .Build();
 
         private static Serilog.ILogger CreateSerilogLogger(IConfiguration configuration)
@@ -60,7 +59,7 @@ namespace Payment.API
                 .Enrich.FromLogContext()
                 .WriteTo.Console()
                 .WriteTo.Seq(string.IsNullOrWhiteSpace(seqServerUrl) ? "http://seq" : seqServerUrl)
-                .WriteTo.Http(string.IsNullOrWhiteSpace(logstashUrl) ? "http://logstash:8080" : logstashUrl)
+                .WriteTo.Http(string.IsNullOrWhiteSpace(logstashUrl) ? "http://logstash:8080" : logstashUrl, queueLimitBytes: 50 * 1024 * 1024)
                 .ReadFrom.Configuration(configuration)
                 .CreateLogger();
         }

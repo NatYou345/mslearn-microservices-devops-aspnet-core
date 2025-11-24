@@ -1,16 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>Microsoft.eShopOnContainers.BuildingBlocks.IntegrationEventLogEF</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\EventBus\EventBus.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="Unknown" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="Unknown" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="Unknown" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="Unknown" />
-    <PackageReference Include="Newtonsoft.Json" Version="Unknown" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>

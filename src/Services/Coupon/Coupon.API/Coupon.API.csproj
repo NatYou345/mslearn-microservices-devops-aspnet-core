@@ -1,30 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <UserSecretsId>1d5bc948-90f1-4906-a1f8-8edaa1ed9e2e</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..\..</DockerfileContext>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="Unknown" />
-    <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="Unknown" />
-    <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="Unknown" />
-    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="Unknown" />
-    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="Unknown" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="Unknown" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="Unknown" />
-    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="Unknown" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="Unknown" />
-    <PackageReference Include="MongoDB.Driver" Version="Unknown" />
-    <PackageReference Include="MongoDB.Driver.Core" Version="Unknown" />
-    <PackageReference Include="Polly" Version="Unknown" />
-    <PackageReference Include="Serilog.AspNetCore" Version="Unknown" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="Unknown" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="Unknown" />
-    <PackageReference Include="Serilog.Sinks.Http" Version="Unknown" />
-    <PackageReference Include="Serilog.Sinks.Seq" Version="Unknown" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="Unknown" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="Unknown" />
+    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="8.1.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="8.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="8.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.24" />
+    <PackageReference Include="MongoDB.Driver" Version="2.30.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.30.0" />
+    <PackageReference Include="Polly" Version="8.5.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.4" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\BuildingBlocks\EventBus\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
