@@ -1,0 +1,11 @@
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.csproj.AssemblyReference.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.AssemblyInfoInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.AssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.csproj.CoreCompileInputs.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.MvcApplicationPartsAssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.MvcApplicationPartsAssemblyInfo.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.RazorAssemblyInfo.cache
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.RazorAssemblyInfo.cs
+/home/runner/work/mslearn-microservices-devops-aspnet-core/mslearn-microservices-devops-aspnet-core/src/Services/Identity/Identity.API/obj/Debug/net9.0/Identity.API.sourcelink.json

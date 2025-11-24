@@ -46,7 +46,7 @@ namespace Coupon.API
                         .Enrich.FromLogContext()
                         .WriteTo.Console()
                         .WriteTo.Seq(string.IsNullOrWhiteSpace(host.Configuration["Serilog:SeqServerUrl"]) ? "http://seq" : host.Configuration["Serilog:SeqServerUrl"])
-                        .WriteTo.Http(string.IsNullOrWhiteSpace(host.Configuration["Serilog:LogstashgUrl"]) ? "http://logstash:8080" : host.Configuration["Serilog:LogstashgUrl"])
+                        .WriteTo.Http(string.IsNullOrWhiteSpace(host.Configuration["Serilog:LogstashgUrl"]) ? "http://logstash:8080" : host.Configuration["Serilog:LogstashgUrl"], queueLimitBytes: 50 * 1024 * 1024)
                         .ReadFrom.Configuration(host.Configuration);
                 });
     }
