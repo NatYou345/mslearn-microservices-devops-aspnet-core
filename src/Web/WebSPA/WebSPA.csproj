@@ -31,6 +31,7 @@
   <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
     <PackageReference Include="AspNetCore.HealthChecks.Uris" Version="8.0.1" />
+  <PackageReference Include="KubernetesClient" Version="17.0.14" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="7.0.0" />
@@ -41,6 +42,7 @@
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="9.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  <PackageReference Include="System.Text.Json" Version="6.0.10" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
