@@ -10,20 +10,20 @@
     <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="8.0.1" />
-    <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="8.0.2" />
-    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.22.0" />
-    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="7.0.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="9.0.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="9.0.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="9.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.DependencyCollector" Version="2.23.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.24" />
-    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
     <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.4" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
-    <PackageReference Include="Serilog.Sinks.Http" Version="9.0.0" />
-    <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="9.2.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="9.0.0" />
   </ItemGroup>
   <ItemGroup>

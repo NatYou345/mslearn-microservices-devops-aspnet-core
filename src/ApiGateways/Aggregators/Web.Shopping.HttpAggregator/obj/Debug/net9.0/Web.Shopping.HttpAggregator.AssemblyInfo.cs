@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web.Shopping.HttpAggregator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91ea6f1b76a7d168c1578f95f117cc70e8695f07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bdf980634be18e4daf02d3948169cd4cab5c42c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web.Shopping.HttpAggregator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web.Shopping.HttpAggregator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -46,7 +46,7 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             }
           },
           "imports": [
@@ -115,7 +115,7 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -123,19 +123,19 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.5.0, )"
+              "version": "[8.6.5, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[6.8.1, )"
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
@@ -204,7 +204,7 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
@@ -216,7 +216,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
@@ -291,7 +291,7 @@
           "dependencies": {
             "AspNetCore.HealthChecks.AzureServiceBus": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.MongoDb": {
               "target": "Package",
@@ -299,35 +299,117 @@
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.SqlServer": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.Uris": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.33.1, )"
+            },
+            "Grpc.AspNetCore.Server": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.AspNetCore.Server.ClientFactory": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.76.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
             },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[2.22.0, )"
+              "version": "[2.23.0, )"
+            },
+            "Microsoft.ApplicationInsights.DependencyCollector": {
+              "target": "Package",
+              "version": "[2.23.0, )"
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Configuration.AzureKeyVault": {
               "target": "Package",
               "version": "[3.1.24, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.AzureAppServices": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[3.0.71, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -337,33 +419,45 @@
               "target": "Package",
               "version": "[2.30.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
             "Polly": {
               "target": "Package",
-              "version": "[8.5.0, )"
+              "version": "[8.6.5, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.2.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.2.0, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[10.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             }
           },
           "imports": [
@@ -433,9 +527,155 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.AzureServiceBus": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.Rabbitmq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AspNetCore.HealthChecks.Uris": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.33.1, )"
+            },
+            "Grpc.AspNetCore.Server": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.AspNetCore.Server.ClientFactory": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.76.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "Microsoft.ApplicationInsights.DependencyCollector": {
+              "target": "Package",
+              "version": "[2.23.0, )"
+            },
+            "Microsoft.ApplicationInsights.Kubernetes": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.AzureAppServices": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.12.0, )"
+            },
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[3.0.71, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.6.5, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Serilog.Sinks.Http": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

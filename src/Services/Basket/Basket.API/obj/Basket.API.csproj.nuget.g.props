@@ -13,16 +13,16 @@
     <SourceRoot Include="/home/runner/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server/6.0.5/build/Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server/6.0.5/build/Microsoft.Extensions.ApiDescription.Server.props')" />
-    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore/7.2.0/build/Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore/7.2.0/build/Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server/9.0.0/build/Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server/9.0.0/build/Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore/10.0.1/build/Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore/10.0.1/build/Swashbuckle.AspNetCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets/1.21.0/build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets/1.21.0/build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/6.0.1/buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/6.0.1/buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
-    <Import Project="$(NuGetPackageRoot)grpc.tools/2.68.1/build/Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools/2.68.1/build/Grpc.Tools.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/9.0.2/buildTransitive/net8.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/9.0.2/buildTransitive/net8.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)grpc.tools/2.76.0/build/Grpc.Tools.props" Condition="Exists('$(NuGetPackageRoot)grpc.tools/2.76.0/build/Grpc.Tools.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/home/runner/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/home/runner/.nuget/packages/microsoft.extensions.apidescription.server/9.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">/home/runner/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.21.0</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/home/runner/.nuget/packages/microsoft.codeanalysis.analyzers/1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
-    <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">/home/runner/.nuget/packages/grpc.tools/2.68.1</PkgGrpc_Tools>
+    <PkgGrpc_Tools Condition=" '$(PkgGrpc_Tools)' == '' ">/home/runner/.nuget/packages/grpc.tools/2.76.0</PkgGrpc_Tools>
   </PropertyGroup>
 </Project>
