@@ -46,7 +46,7 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[13.0.4, )"
             }
           },
           "imports": [
@@ -115,7 +115,7 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Azure.ServiceBus": {
               "target": "Package",
@@ -127,7 +127,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.2, )"
             }
           },
           "imports": [

@@ -46,47 +46,31 @@
           "dependencies": {
             "AspNetCore.HealthChecks.SqlServer": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.0, )"
             },
-            "IdentityServer4": {
-              "target": "Package",
-              "version": "[4.1.2, )"
-            },
-            "IdentityServer4.AspNetIdentity": {
-              "target": "Package",
-              "version": "[4.1.2, )"
-            },
-            "IdentityServer4.EntityFramework": {
-              "target": "Package",
-              "version": "[4.1.2, )"
-            },
-            "IdentityServer4.EntityFramework.Storage": {
-              "target": "Package",
-              "version": "[4.1.2, )"
-            },
-            "IdentityServer4.Storage": {
-              "target": "Package",
-              "version": "[4.1.2, )"
-            },
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
-              "version": "[2.22.0, )"
+              "version": "[2.23.0, )"
             },
             "Microsoft.ApplicationInsights.DependencyCollector": {
               "target": "Package",
-              "version": "[2.22.0, )"
+              "version": "[2.23.0, )"
             },
             "Microsoft.ApplicationInsights.Kubernetes": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
               "target": "Package",
@@ -126,15 +110,15 @@
             },
             "Microsoft.Web.LibraryManager.Build": {
               "target": "Package",
-              "version": "[2.1.175, )"
+              "version": "[3.0.71, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.5.0, )"
+              "version": "[8.6.5, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Enrichers.Environment": {
               "target": "Package",
@@ -142,19 +126,19 @@
             },
             "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.1.1, )"
             },
             "Serilog.Sinks.Http": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.2.0, )"
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -163,6 +147,10 @@
             "Swashbuckle.AspNetCore.Newtonsoft": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.6.0, )"
             }
           },
           "imports": [

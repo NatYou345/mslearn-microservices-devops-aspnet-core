@@ -149,6 +149,11 @@ namespace Microsoft.eShopOnContainers.Services.Ordering.Infrastructure
                 return Task.FromResult<TResponse>(default(TResponse));
             }
 
+            public Task Send<TRequest>(TRequest request, CancellationToken cancellationToken = default) where TRequest : IRequest
+            {
+                return Task.CompletedTask;
+            }
+
             public Task<object> Send(object request, CancellationToken cancellationToken = default)
             {
                 return Task.FromResult(default(object));
