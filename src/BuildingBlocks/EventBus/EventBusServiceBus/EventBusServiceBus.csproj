@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="Unknown" />
-    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="Unknown" />
-    <PackageReference Include="Microsoft.CSharp" Version="Unknown" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="Unknown" />
+    <PackageReference Include="Autofac" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="5.2.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EventBus\EventBus.csproj" />

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 namespace Ordering.API.Application.Behaviors
 {
     public class TransactionBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+        where TRequest : IRequest<TResponse>
     {
         private readonly ILogger<TransactionBehaviour<TRequest, TResponse>> _logger;
         private readonly OrderingContext _dbContext;
@@ -26,7 +27,7 @@ namespace Ordering.API.Application.Behaviors
             _logger = logger ?? throw new ArgumentException(nameof(ILogger));
         }
 
-        public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
+        public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
             var response = default(TResponse);
             var typeName = request.GetGenericTypeName();
