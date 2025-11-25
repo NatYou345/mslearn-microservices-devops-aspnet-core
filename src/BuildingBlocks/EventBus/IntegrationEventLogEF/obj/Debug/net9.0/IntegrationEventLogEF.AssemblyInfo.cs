@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegrationEventLogEF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d45e6378a3c9d7250e3bc3b1db69ec0f9f76f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15937589b02a68d3ef54d4dbe7ee7c70fe078bc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegrationEventLogEF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegrationEventLogEF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
