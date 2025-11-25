@@ -158,12 +158,13 @@
         {
             var accountName = configuration.GetValue<string>("AzureStorageAccountName");
             var accountKey = configuration.GetValue<string>("AzureStorageAccountKey");
+            var connectionString = configuration["ConnectionString"];
 
             var hcBuilder = services.AddHealthChecks();
 
             hcBuilder.AddCheck("self", () => HealthCheckResult.Healthy())
                 .AddMongoDb(
-                    configuration["ConnectionString"],
+                    sp => new MongoDB.Driver.MongoClient(connectionString),
                     name: "CouponCollection-check",
                     tags: new string[] { "couponcollection" });
 
