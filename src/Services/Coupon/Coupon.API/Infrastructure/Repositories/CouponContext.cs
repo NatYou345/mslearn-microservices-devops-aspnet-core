@@ -1,5 +1,6 @@
 ﻿namespace Coupon.API.Infrastructure.Repositories
 {
+    using System;
     using Coupon.API.Infrastructure.Models;
     using Microsoft.Extensions.Options;
     using MongoDB.Driver;
@@ -14,7 +15,7 @@
 
             if (client is null)
             {
-                throw new MongoConfigurationException("Cannot connect to the database. The connection string is not valid or the database is not accessible");
+                throw new InvalidOperationException("Cannot connect to the database. The connection string is not valid or the database is not accessible");
             }
 
             _database = client.GetDatabase(settings.Value.CouponMongoDatabase);
