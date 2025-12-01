@@ -41,7 +41,7 @@
     "@ng-bootstrap/ng-bootstrap": "19.0.1",
     "@popperjs/core": "2.11.8",
     "bootstrap": "5.3.8",
-    "core-js": "3.42.0",
+    "core-js": "3.47.0",
     "isomorphic-fetch": "3.0.0",
     "jquery": "3.7.1",
     "ngx-toastr": "19.1.0",
