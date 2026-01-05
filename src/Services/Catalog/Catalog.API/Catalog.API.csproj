@@ -71,6 +71,7 @@
     <ProjectReference Include="..\..\..\BuildingBlocks\EventBus\IntegrationEventLogEF\IntegrationEventLogEF.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.Jit" Version="1.0.12" />
     <None Update="Pics\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
