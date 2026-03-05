@@ -2,6 +2,7 @@
 {
     using Autofac;
     using Azure.Messaging.ServiceBus;
+    using System.Threading;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
@@ -45,13 +46,7 @@
             var jsonMessage = JsonConvert.SerializeObject(@event);
 
             var sender = _serviceBusPersisterConnection.CreateSender(eventName);
-            var message = new ServiceBusMessage(jsonMessage)
-            {
-                MessageId = Guid.NewGuid().ToString(),
-                Subject = eventName
-            };
-
-            sender.SendMessageAsync(message).GetAwaiter().GetResult();
+            sender.Send(jsonMessage, eventName);
         }
 
         public void SubscribeDynamic<TH>(string eventName)

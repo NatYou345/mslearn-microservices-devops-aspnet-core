@@ -22,9 +22,21 @@ namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus
 
         public string ServiceBusConnectionString => _serviceBusConnectionString;
 
-        public ServiceBusSender CreateSender(string topicName)
+        public IServiceBusSender CreateSender(string topicName)
         {
-            return _serviceBusClient.CreateSender(topicName);
+            var sender = _serviceBusClient.CreateSender(topicName);
+            return new AzureServiceBusSender(sender);
+        }
+
+        private class AzureServiceBusSender : IServiceBusSender
+        {
+            private readonly ServiceBusSender _inner;
+            public AzureServiceBusSender(ServiceBusSender inner) => _inner = inner;
+            public void Send(string body, string subject)
+            {
+                var msg = new ServiceBusMessage(body) { Subject = subject };
+                _inner.SendMessageAsync(msg).GetAwaiter().GetResult();
+            }
         }
 
         public void Dispose()
