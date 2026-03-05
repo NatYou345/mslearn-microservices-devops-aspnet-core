@@ -284,7 +284,7 @@ namespace Microsoft.eShopOnContainers.Services.Catalog.API
                     var settings = sp.GetRequiredService<IOptions<CatalogSettings>>().Value;
                     var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
 
-                    var serviceBusConnection = new ServiceBusConnectionStringBuilder(settings.EventBusConnection);
+                    var serviceBusConnection = settings.EventBusConnection;
 
                     return new DefaultServiceBusPersisterConnection(serviceBusConnection, logger);
                 });
