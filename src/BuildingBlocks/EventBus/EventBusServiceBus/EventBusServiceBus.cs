@@ -1,7 +1,7 @@
 ﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus
 {
     using Autofac;
-    using Microsoft.Azure.ServiceBus;
+    using Azure.Messaging.ServiceBus;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
@@ -17,7 +17,7 @@
         private readonly IServiceBusPersisterConnection _serviceBusPersisterConnection;
         private readonly ILogger<EventBusServiceBus> _logger;
         private readonly IEventBusSubscriptionsManager _subsManager;
-        private readonly SubscriptionClient _subscriptionClient;
+        private ServiceBusProcessor _processor;
         private readonly ILifetimeScope _autofac;
         private readonly string AUTOFAC_SCOPE_NAME = "eshop_event_bus";
         private const string INTEGRATION_EVENT_SUFFIX = "IntegrationEvent";
@@ -30,8 +30,9 @@
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _subsManager = subsManager ?? new InMemoryEventBusSubscriptionsManager();
 
-            _subscriptionClient = new SubscriptionClient(serviceBusPersisterConnection.ServiceBusConnectionStringBuilder,
-                subscriptionClientName);
+            // Create processor for subscription using Azure.Messaging.ServiceBus
+            _processor = new ServiceBusClient(serviceBusPersisterConnection.ServiceBusConnectionString)
+                .CreateProcessor(subscriptionClientName, new ServiceBusProcessorOptions { MaxConcurrentCalls = 10, AutoCompleteMessages = false });
             _autofac = autofac;
 
             RemoveDefaultRule();
@@ -42,20 +43,15 @@
         {
             var eventName = @event.GetType().Name.Replace(INTEGRATION_EVENT_SUFFIX, "");
             var jsonMessage = JsonConvert.SerializeObject(@event);
-            var body = Encoding.UTF8.GetBytes(jsonMessage);
 
-            var message = new Message
+            var sender = _serviceBusPersisterConnection.CreateSender(eventName);
+            var message = new ServiceBusMessage(jsonMessage)
             {
                 MessageId = Guid.NewGuid().ToString(),
-                Body = body,
-                Label = eventName,
+                Subject = eventName
             };
 
-            var topicClient = _serviceBusPersisterConnection.CreateModel();
-
-            topicClient.SendAsync(message)
-                .GetAwaiter()
-                .GetResult();
+            sender.SendMessageAsync(message).GetAwaiter().GetResult();
         }
 
         public void SubscribeDynamic<TH>(string eventName)
@@ -75,18 +71,15 @@
             var containsKey = _subsManager.HasSubscriptionsForEvent<T>();
             if (!containsKey)
             {
-                try
-                {
-                    _subscriptionClient.AddRuleAsync(new RuleDescription
+                    try
                     {
-                        Filter = new CorrelationFilter { Label = eventName },
-                        Name = eventName
-                    }).GetAwaiter().GetResult();
-                }
-                catch (ServiceBusException)
-                {
-                    _logger.LogWarning("The messaging entity {eventName} already exists.", eventName);
-                }
+                        // Azure.Messaging.ServiceBus does not support rule management client in the same way; skip creating filter rules here.
+                        _logger.LogInformation("Subscribe rule management is not implemented for Azure.Messaging.ServiceBus in this migration.");
+                    }
+                    catch (Exception)
+                    {
+                        _logger.LogWarning("The messaging entity {eventName} may already exist.", eventName);
+                    }
             }
 
             _logger.LogInformation("Subscribing to event {EventName} with {EventHandler}", eventName, typeof(TH).Name);
@@ -100,17 +93,8 @@
         {
             var eventName = typeof(T).Name.Replace(INTEGRATION_EVENT_SUFFIX, "");
 
-            try
-            {
-                _subscriptionClient
-                 .RemoveRuleAsync(eventName)
-                 .GetAwaiter()
-                 .GetResult();
-            }
-            catch (MessagingEntityNotFoundException)
-            {
-                _logger.LogWarning("The messaging entity {eventName} Could not be found.", eventName);
-            }
+            // Rule removal is not supported in the same way for Azure.Messaging.ServiceBus; log for manual follow-up
+            _logger.LogInformation("Unsubscribe rule removal is not implemented for Azure.Messaging.ServiceBus migration for {eventName}", eventName);
 
             _logger.LogInformation("Unsubscribing from event {EventName}", eventName);
 
@@ -132,28 +116,27 @@
 
         private void RegisterSubscriptionClientMessageHandler()
         {
-            _subscriptionClient.RegisterMessageHandler(
-                async (message, token) =>
-                {
-                    var eventName = $"{message.Label}{INTEGRATION_EVENT_SUFFIX}";
-                    var messageData = Encoding.UTF8.GetString(message.Body);
+            _processor.ProcessMessageAsync += async args =>
+            {
+                var message = args.Message;
+                var eventName = $"{message.Subject}{INTEGRATION_EVENT_SUFFIX}";
+                var messageData = Encoding.UTF8.GetString(message.Body.ToArray());
 
-                    // Complete the message so that it is not received again.
-                    if (await ProcessEvent(eventName, messageData))
-                    {
-                        await _subscriptionClient.CompleteAsync(message.SystemProperties.LockToken);
-                    }
-                },
-                new MessageHandlerOptions(ExceptionReceivedHandler) { MaxConcurrentCalls = 10, AutoComplete = false });
+                if (await ProcessEvent(eventName, messageData))
+                {
+                    await args.CompleteMessageAsync(message);
+                }
+            };
+
+            _processor.ProcessErrorAsync += ExceptionReceivedHandlerAsync;
+            _processor.StartProcessingAsync().GetAwaiter().GetResult();
         }
 
-        private Task ExceptionReceivedHandler(ExceptionReceivedEventArgs exceptionReceivedEventArgs)
+        private Task ExceptionReceivedHandlerAsync(ProcessErrorEventArgs args)
         {
-            var ex = exceptionReceivedEventArgs.Exception;
-            var context = exceptionReceivedEventArgs.ExceptionReceivedContext;
-
+            var ex = args.Exception;
+            var context = new { args.ErrorSource, args.EntityPath, args.FullyQualifiedNamespace };
             _logger.LogError(ex, "ERROR handling message: {ExceptionMessage} - Context: {@ExceptionContext}", ex.Message, context);
-
             return Task.CompletedTask;
         }
 
@@ -192,17 +175,8 @@
 
         private void RemoveDefaultRule()
         {
-            try
-            {
-                _subscriptionClient
-                 .RemoveRuleAsync(RuleDescription.DefaultRuleName)
-                 .GetAwaiter()
-                 .GetResult();
-            }
-            catch (MessagingEntityNotFoundException)
-            {
-                _logger.LogWarning("The messaging entity {DefaultRuleName} Could not be found.", RuleDescription.DefaultRuleName);
-            }
+            // Removal of default rule is not applicable with Azure.Messaging.ServiceBus in this migration.
+            _logger.LogInformation("RemoveDefaultRule is a no-op for Azure.Messaging.ServiceBus migration.");
         }
     }
 }

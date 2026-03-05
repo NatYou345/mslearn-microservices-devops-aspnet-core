@@ -1,4 +1,4 @@
-﻿using Microsoft.Azure.ServiceBus;
+﻿using Azure.Messaging.ServiceBus;
 using Microsoft.Extensions.Logging;
 using System;
 
@@ -7,31 +7,24 @@ namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus
     public class DefaultServiceBusPersisterConnection :IServiceBusPersisterConnection
     {
         private readonly ILogger<DefaultServiceBusPersisterConnection> _logger;
-        private readonly ServiceBusConnectionStringBuilder _serviceBusConnectionStringBuilder;
-        private ITopicClient _topicClient;
+        private readonly string _serviceBusConnectionString;
+        private ServiceBusClient _serviceBusClient;
 
         bool _disposed;
 
-        public DefaultServiceBusPersisterConnection(ServiceBusConnectionStringBuilder serviceBusConnectionStringBuilder,
+        public DefaultServiceBusPersisterConnection(string serviceBusConnectionString,
             ILogger<DefaultServiceBusPersisterConnection> logger)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            
-            _serviceBusConnectionStringBuilder = serviceBusConnectionStringBuilder ?? 
-                throw new ArgumentNullException(nameof(serviceBusConnectionStringBuilder));
-            _topicClient = new TopicClient(_serviceBusConnectionStringBuilder, RetryPolicy.Default);
+            _serviceBusConnectionString = serviceBusConnectionString ?? throw new ArgumentNullException(nameof(serviceBusConnectionString));
+            _serviceBusClient = new ServiceBusClient(_serviceBusConnectionString);
         }
 
-        public ServiceBusConnectionStringBuilder ServiceBusConnectionStringBuilder => _serviceBusConnectionStringBuilder;
+        public string ServiceBusConnectionString => _serviceBusConnectionString;
 
-        public ITopicClient CreateModel()
+        public ServiceBusSender CreateSender(string topicName)
         {
-            if(_topicClient.IsClosedOrClosing)
-            {
-                _topicClient = new TopicClient(_serviceBusConnectionStringBuilder, RetryPolicy.Default);
-            }
-
-            return _topicClient;
+            return _serviceBusClient.CreateSender(topicName);
         }
 
         public void Dispose()
