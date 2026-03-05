@@ -298,9 +298,22 @@ namespace Microsoft.eShopOnContainers.Services.Catalog.API
 
                     var factory = new ConnectionFactory()
                     {
-                        HostName = configuration["EventBusConnection"],
-                        DispatchConsumersAsync = true
+                        HostName = configuration["EventBusConnection"]
                     };
+
+                    // Set DispatchConsumersAsync via reflection for compatibility with multiple RabbitMQ.Client versions
+                    try
+                    {
+                        var prop = factory.GetType().GetProperty("DispatchConsumersAsync");
+                        if (prop != null && prop.CanWrite)
+                        {
+                            prop.SetValue(factory, true);
+                        }
+                    }
+                    catch
+                    {
+                        // ignore - property may not exist on older/newer client versions
+                    }
 
                     if (!string.IsNullOrEmpty(configuration["EventBusUserName"]))
                     {
