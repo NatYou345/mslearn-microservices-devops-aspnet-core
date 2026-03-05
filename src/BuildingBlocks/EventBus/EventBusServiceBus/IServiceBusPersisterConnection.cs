@@ -1,18 +1,16 @@
 ﻿namespace Microsoft.eShopOnContainers.BuildingBlocks.EventBusServiceBus
 {
-
+    using Azure.Messaging.ServiceBus;
     using System;
 
     public interface IServiceBusPersisterConnection : IDisposable
     {
-        string ServiceBusConnectionString { get; }
+        string ConnectionString { get; }
 
-        IServiceBusSender CreateSender(string topicName);
+        ServiceBusClient ServiceBusClient { get; }
 
-    }
+        ServiceBusSender CreateSender(string topicName);
 
-    public interface IServiceBusSender
-    {
-        void Send(string body, string subject);
+        ServiceBusProcessor CreateProcessor(string topicName, string subscriptionName, ServiceBusProcessorOptions options = null);
     }
 }

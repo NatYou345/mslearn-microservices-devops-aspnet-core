@@ -284,7 +284,7 @@ namespace Microsoft.eShopOnContainers.Services.Catalog.API
                     var settings = sp.GetRequiredService<IOptions<CatalogSettings>>().Value;
                     var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
 
-                    var serviceBusConnection = settings.EventBusConnection;
+                    var serviceBusConnection = new ServiceBusConnectionStringBuilder(settings.EventBusConnection);
 
                     return new DefaultServiceBusPersisterConnection(serviceBusConnection, logger);
                 });
@@ -344,15 +344,22 @@ namespace Microsoft.eShopOnContainers.Services.Catalog.API
 
             if (configuration.GetValue<bool>("AzureServiceBusEnabled"))
             {
+                services.AddSingleton<IServiceBusPersisterConnection>(sp =>
+                {
+                    var settings = sp.GetRequiredService<IOptions<CatalogSettings>>().Value;
+                    var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
+                    return new DefaultServiceBusPersisterConnection(settings.EventBusConnection, logger);
+                });
+
                 services.AddSingleton<IEventBus, EventBusServiceBus>(sp =>
                 {
                     var serviceBusPersisterConnection = sp.GetRequiredService<IServiceBusPersisterConnection>();
                     var iLifetimeScope = sp.GetRequiredService<ILifetimeScope>();
                     var logger = sp.GetRequiredService<ILogger<EventBusServiceBus>>();
-                    var eventBusSubcriptionsManager = sp.GetRequiredService<IEventBusSubscriptionsManager>();
+                    var eventBusSubscriptionsManager = sp.GetRequiredService<IEventBusSubscriptionsManager>();
 
                     return new EventBusServiceBus(serviceBusPersisterConnection, logger,
-                        eventBusSubcriptionsManager, subscriptionClientName, iLifetimeScope);
+                        eventBusSubscriptionsManager, subscriptionClientName, iLifetimeScope);
                 });
 
             }

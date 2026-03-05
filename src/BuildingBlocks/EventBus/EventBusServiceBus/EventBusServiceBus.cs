@@ -2,7 +2,6 @@
 {
     using Autofac;
     using Azure.Messaging.ServiceBus;
-    using System.Threading;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Events;
@@ -18,7 +17,7 @@
         private readonly IServiceBusPersisterConnection _serviceBusPersisterConnection;
         private readonly ILogger<EventBusServiceBus> _logger;
         private readonly IEventBusSubscriptionsManager _subsManager;
-        private ServiceBusProcessor _processor;
+        private readonly ServiceBusProcessor _subscriptionProcessor;
         private readonly ILifetimeScope _autofac;
         private readonly string AUTOFAC_SCOPE_NAME = "eshop_event_bus";
         private const string INTEGRATION_EVENT_SUFFIX = "IntegrationEvent";
@@ -31,9 +30,8 @@
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _subsManager = subsManager ?? new InMemoryEventBusSubscriptionsManager();
 
-            // Create processor for subscription using Azure.Messaging.ServiceBus
-            _processor = new ServiceBusClient(serviceBusPersisterConnection.ServiceBusConnectionString)
-                .CreateProcessor(subscriptionClientName, new ServiceBusProcessorOptions { MaxConcurrentCalls = 10, AutoCompleteMessages = false });
+            _subscriptionProcessor = serviceBusPersisterConnection.CreateProcessor(subscriptionClientName.Split(':')[0],
+                subscriptionClientName.Split(':')[1]);
             _autofac = autofac;
 
             RemoveDefaultRule();
@@ -44,9 +42,17 @@
         {
             var eventName = @event.GetType().Name.Replace(INTEGRATION_EVENT_SUFFIX, "");
             var jsonMessage = JsonConvert.SerializeObject(@event);
+            var body = new BinaryData(jsonMessage);
 
             var sender = _serviceBusPersisterConnection.CreateSender(eventName);
-            sender.Send(jsonMessage, eventName);
+
+            var message = new ServiceBusMessage(body)
+            {
+                MessageId = Guid.NewGuid().ToString(),
+                Subject = eventName
+            };
+
+            sender.SendMessageAsync(message).GetAwaiter().GetResult();
         }
 
         public void SubscribeDynamic<TH>(string eventName)
@@ -63,22 +69,10 @@
         {
             var eventName = typeof(T).Name.Replace(INTEGRATION_EVENT_SUFFIX, "");
 
-            var containsKey = _subsManager.HasSubscriptionsForEvent<T>();
-            if (!containsKey)
-            {
-                    try
-                    {
-                        // Azure.Messaging.ServiceBus does not support rule management client in the same way; skip creating filter rules here.
-                        _logger.LogInformation("Subscribe rule management is not implemented for Azure.Messaging.ServiceBus in this migration.");
-                    }
-                    catch (Exception)
-                    {
-                        _logger.LogWarning("The messaging entity {eventName} may already exist.", eventName);
-                    }
-            }
+            _logger.LogInformation("Registering subscription for event {EventName} with handler {EventHandler}", eventName, typeof(TH).Name);
 
-            _logger.LogInformation("Subscribing to event {EventName} with {EventHandler}", eventName, typeof(TH).Name);
-
+            // Register handler mapping in the in-memory subscription manager.
+            // Topic/subscription creation and filters are expected to be provisioned externally or via management tooling.
             _subsManager.AddSubscription<T, TH>();
         }
 
@@ -88,11 +82,7 @@
         {
             var eventName = typeof(T).Name.Replace(INTEGRATION_EVENT_SUFFIX, "");
 
-            // Rule removal is not supported in the same way for Azure.Messaging.ServiceBus; log for manual follow-up
-            _logger.LogInformation("Unsubscribe rule removal is not implemented for Azure.Messaging.ServiceBus migration for {eventName}", eventName);
-
-            _logger.LogInformation("Unsubscribing from event {EventName}", eventName);
-
+            _logger.LogInformation("Removing subscription for event {EventName}", eventName);
             _subsManager.RemoveSubscription<T, TH>();
         }
 
@@ -109,13 +99,15 @@
             _subsManager.Clear();
         }
 
+        // The subscription processor is configured in the constructor via RegisterSubscriptionClientMessageHandler
+
         private void RegisterSubscriptionClientMessageHandler()
         {
-            _processor.ProcessMessageAsync += async args =>
+            _subscriptionProcessor.ProcessMessageAsync += async args =>
             {
                 var message = args.Message;
                 var eventName = $"{message.Subject}{INTEGRATION_EVENT_SUFFIX}";
-                var messageData = Encoding.UTF8.GetString(message.Body.ToArray());
+                var messageData = message.Body.ToString();
 
                 if (await ProcessEvent(eventName, messageData))
                 {
@@ -123,15 +115,15 @@
                 }
             };
 
-            _processor.ProcessErrorAsync += ExceptionReceivedHandlerAsync;
-            _processor.StartProcessingAsync().GetAwaiter().GetResult();
+            _subscriptionProcessor.ProcessErrorAsync += ExceptionReceivedHandler;
+
+            _subscriptionProcessor.StartProcessingAsync().GetAwaiter().GetResult();
         }
 
-        private Task ExceptionReceivedHandlerAsync(ProcessErrorEventArgs args)
+        private Task ExceptionReceivedHandler(ProcessErrorEventArgs exceptionReceivedEventArgs)
         {
-            var ex = args.Exception;
-            var context = new { args.ErrorSource, args.EntityPath, args.FullyQualifiedNamespace };
-            _logger.LogError(ex, "ERROR handling message: {ExceptionMessage} - Context: {@ExceptionContext}", ex.Message, context);
+            var ex = exceptionReceivedEventArgs.Exception;
+            _logger.LogError(ex, "ERROR handling message: {ExceptionMessage}", ex.Message);
             return Task.CompletedTask;
         }
 
@@ -170,8 +162,7 @@
 
         private void RemoveDefaultRule()
         {
-            // Removal of default rule is not applicable with Azure.Messaging.ServiceBus in this migration.
-            _logger.LogInformation("RemoveDefaultRule is a no-op for Azure.Messaging.ServiceBus migration.");
+            // No-op for Azure.Messaging.ServiceBus since rule management is done via the Service Bus management client or portal
         }
     }
 }
