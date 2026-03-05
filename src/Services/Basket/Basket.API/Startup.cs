@@ -123,8 +123,10 @@ namespace Microsoft.eShopOnContainers.Services.Basket.API
                 {
                     var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
 
-                var serviceBusConnectionString = Configuration["EventBusConnection"];
-                return new DefaultServiceBusPersisterConnection(serviceBusConnectionString, logger);
+                    var serviceBusConnectionString = Configuration["EventBusConnection"];
+                    var serviceBusConnection = new ServiceBusConnectionStringBuilder(serviceBusConnectionString);
+
+                    return new DefaultServiceBusPersisterConnection(serviceBusConnection, logger);
                 });
             }
             else
