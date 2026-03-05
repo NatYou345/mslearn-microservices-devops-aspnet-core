@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Azure.ServiceBus;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
@@ -122,11 +121,8 @@ namespace Microsoft.eShopOnContainers.Services.Basket.API
                 services.AddSingleton<IServiceBusPersisterConnection>(sp =>
                 {
                     var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
-
-                    var serviceBusConnectionString = Configuration["EventBusConnection"];
-                    var serviceBusConnection = new ServiceBusConnectionStringBuilder(serviceBusConnectionString);
-
-                    return new DefaultServiceBusPersisterConnection(serviceBusConnection, logger);
+                        var serviceBusConnectionString = Configuration["EventBusConnection"];
+                        return new DefaultServiceBusPersisterConnection(serviceBusConnectionString, logger);
                 });
             }
             else

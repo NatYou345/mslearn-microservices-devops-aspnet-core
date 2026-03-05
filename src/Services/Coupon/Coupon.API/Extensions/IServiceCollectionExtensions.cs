@@ -10,7 +10,6 @@
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
-    using Microsoft.Azure.ServiceBus;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
@@ -29,9 +28,7 @@
             services.AddTransient<ICouponRepository, CouponRepository>()
                 .AddTransient<IServiceBusPersisterConnection, DefaultServiceBusPersisterConnection>(service =>
                 {
-                    var connection = new ServiceBusConnectionStringBuilder(configuration["EventBusConnection"]);
-
-                    return new DefaultServiceBusPersisterConnection(connection, service.GetService<ILogger<DefaultServiceBusPersisterConnection>>());
+                    return new DefaultServiceBusPersisterConnection(configuration["EventBusConnection"], service.GetService<ILogger<DefaultServiceBusPersisterConnection>>());
                 })
                 .AddTransient<IRabbitMQPersistentConnection, DefaultRabbitMQPersistentConnection>(service =>
                 {

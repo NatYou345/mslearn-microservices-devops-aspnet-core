@@ -22,7 +22,6 @@
     using Microsoft.AspNetCore.Diagnostics.HealthChecks;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Mvc;
-    using Microsoft.Azure.ServiceBus;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
     using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
@@ -309,11 +308,8 @@
                 services.AddSingleton<IServiceBusPersisterConnection>(sp =>
                 {
                     var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
-
-                    var serviceBusConnectionString = configuration["EventBusConnection"];
-                    var serviceBusConnection = new ServiceBusConnectionStringBuilder(serviceBusConnectionString);
-
-                    return new DefaultServiceBusPersisterConnection(serviceBusConnection, logger);
+                        var serviceBusConnectionString = configuration["EventBusConnection"];
+                        return new DefaultServiceBusPersisterConnection(serviceBusConnectionString, logger);
                 });
             }
             else

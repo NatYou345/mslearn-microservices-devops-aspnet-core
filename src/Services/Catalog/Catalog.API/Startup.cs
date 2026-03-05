@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Azure.ServiceBus;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
@@ -282,11 +281,8 @@ namespace Microsoft.eShopOnContainers.Services.Catalog.API
                 services.AddSingleton<IServiceBusPersisterConnection>(sp =>
                 {
                     var settings = sp.GetRequiredService<IOptions<CatalogSettings>>().Value;
-                    var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
-
-                    var serviceBusConnection = new ServiceBusConnectionStringBuilder(settings.EventBusConnection);
-
-                    return new DefaultServiceBusPersisterConnection(serviceBusConnection, logger);
+                        var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
+                        return new DefaultServiceBusPersisterConnection(settings.EventBusConnection, logger);
                 });
             }
             else

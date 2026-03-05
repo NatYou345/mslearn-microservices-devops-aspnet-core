@@ -1,5 +1,4 @@
 ﻿using Autofac;
-using Microsoft.Azure.ServiceBus;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBus;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
 using Microsoft.eShopOnContainers.BuildingBlocks.EventBusRabbitMQ;
@@ -54,11 +53,8 @@ namespace Ordering.BackgroundTasks.Extensions
                 services.AddSingleton<IServiceBusPersisterConnection>(sp =>
                 {
                     var logger = sp.GetRequiredService<ILogger<DefaultServiceBusPersisterConnection>>();
-
-                    var serviceBusConnectionString = configuration["EventBusConnection"];
-                    var serviceBusConnection = new ServiceBusConnectionStringBuilder(serviceBusConnectionString);
-
-                    return new DefaultServiceBusPersisterConnection(serviceBusConnection, logger);
+                        var serviceBusConnectionString = configuration["EventBusConnection"];
+                        return new DefaultServiceBusPersisterConnection(serviceBusConnectionString, logger);
                 });
 
                 services.AddSingleton<IEventBus, EventBusServiceBus>(sp =>
