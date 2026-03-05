@@ -4,25 +4,25 @@
 
 Upgrade the repository from `net9.0` to `net10.0` by updating project TargetFrameworks, package references, building, and running automated tests. The work is executed as an atomic code change: prerequisites → atomic upgrade (project/package updates + compilation fixes) → test validation.
 
-**Progress**: 0/3 tasks complete (0%) ![0%](https://progress-bar.xyz/0)
+**Progress**: 1/3 tasks complete (33%) ![0%](https://progress-bar.xyz/33)
 
 ---
 
 ## Tasks
 
-### [▶] TASK-001: Verify prerequisites
+### [✓] TASK-001: Verify prerequisites *(Completed: 2026-03-05 13:34)*
 **References**: Plan §Phase 0, Plan §1 Executive Summary
 
-- [▶] (1) Verify .NET 10 SDK is installed on build agents and local developer machines per Plan §Phase 0 (check `dotnet --list-sdks`)
-- [ ] (2) Runtime/SDK version meets minimum requirements (**Verify**)
-- [ ] (3) Check for `global.json` and update it to reference a .NET 10-compatible SDK if present (per Plan §Phase 0)
-- [ ] (4) `global.json` updated or not present (**Verify**)
-- [ ] (5) Verify required build tools and environment variables referenced by the plan are available (**Verify**)
+- [✓] (1) Verify .NET 10 SDK is installed on build agents and local developer machines per Plan §Phase 0 (check `dotnet --list-sdks`)
+- [✓] (2) Runtime/SDK version meets minimum requirements (**Verify**)
+- [✓] (3) Check for `global.json` and update it to reference a .NET 10-compatible SDK if present (per Plan §Phase 0)
+- [✓] (4) `global.json` updated or not present (**Verify**)
+- [✓] (5) Verify required build tools and environment variables referenced by the plan are available (**Verify**)
 
-### [ ] TASK-002: Atomic framework and package upgrade with compilation fixes
+### [▶] TASK-002: Atomic framework and package upgrade with compilation fixes
 **References**: Plan §Phase 1, Plan §Package Update Reference, Plan §Breaking Changes Catalog, Plan §Project-by-Project Plans
 
-- [ ] (1) Update `TargetFramework` (or append `net10.0` for multi-targeted projects) in all project files listed in Plan §Project-by-Project Plans and update central MSBuild imports (`Directory.Build.props`, `Directory.Packages.props`, `Directory.Build.targets`) where framework or package versions are managed
+- [▶] (1) Update `TargetFramework` (or append `net10.0` for multi-targeted projects) in all project files listed in Plan §Project-by-Project Plans and update central MSBuild imports (`Directory.Build.props`, `Directory.Packages.props`, `Directory.Build.targets`) where framework or package versions are managed
 - [ ] (2) All project files and central imports updated to `net10.0` (**Verify**)
 - [ ] (3) Update package references across the solution per Plan §Package Update Reference (including replacements such as `System.Data.SqlClient` → `Microsoft.Data.SqlClient` and package removals where framework provides functionality)
 - [ ] (4) All package references updated per plan (**Verify**)
@@ -43,3 +43,5 @@ Upgrade the repository from `net9.0` to `net10.0` by updating project TargetFram
 - [ ] (5) Commit test fixes with message: "TASK-003: Test fixes and validation after net10.0 upgrade"
 
 ---
+
+
