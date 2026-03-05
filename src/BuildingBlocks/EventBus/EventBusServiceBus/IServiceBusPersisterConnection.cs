@@ -15,5 +15,4 @@
     {
         void Send(string body, string subject);
     }
-    }
 }
